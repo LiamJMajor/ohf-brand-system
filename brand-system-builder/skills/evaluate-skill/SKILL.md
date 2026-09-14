@@ -9,7 +9,7 @@ description: >
 A skill that has not been run against realistic requests is a draft, whatever its frontmatter says. This skill runs the cases, grades honestly, and turns failures into specific edits. Its job is to answer one question: would this ship without a human rebuild?
 
 ## Where the repo is
-The brand system is the current working directory or the nearest parent containing `INDEX.md`, `core/` and `projects/`; the scripts find it the same way when given no path. If the user is not inside a clone, get them into one before writing anything. Work on a branch and finish with a commit and a pull request to the area owner. Read `${CLAUDE_PLUGIN_ROOT}/references/working-in-the-repo.md` for the flow.
+The brand system is the current working directory or the nearest parent containing `INDEX.md`, `core/` and `projects/`; the scripts find it the same way when given no path. If the user is not inside a clone, get them into one before writing anything. Before the first write: `git fetch origin && git switch -c <type>/<slug> origin/main`, so the work starts from the current remote regardless of the clone's age. Finish with a commit and a pull request to the area owner. Read `${CLAUDE_PLUGIN_ROOT}/references/working-in-the-repo.md` for the flow.
 
 ## Intake
 - Which skill. Confirm `skills/<name>/evals/cases.md` exists with at least three cases across at least two live projects. If not, stop and route to `codify-workflow`.

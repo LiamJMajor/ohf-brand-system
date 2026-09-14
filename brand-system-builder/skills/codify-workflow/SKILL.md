@@ -9,7 +9,7 @@ description: >
 A skill in the brand system is a repeatable production path from settled decisions, parameterised by project. One skill per beat, never one per project: the project is intake, and the skill loads `projects/<slug>/` to become that project's voice. Writing per-project skills would multiply maintenance by the number of projects, and the layout forbids it.
 
 ## Where the repo is
-The brand system is the current working directory or the nearest parent containing `INDEX.md`, `core/` and `projects/`; the scripts find it the same way when given no path. If the user is not inside a clone, get them into one before writing anything. Work on a branch and finish with a commit and a pull request to the area owner. Read `${CLAUDE_PLUGIN_ROOT}/references/working-in-the-repo.md` for the flow.
+The brand system is the current working directory or the nearest parent containing `INDEX.md`, `core/` and `projects/`; the scripts find it the same way when given no path. If the user is not inside a clone, get them into one before writing anything. Before the first write: `git fetch origin && git switch -c <type>/<slug> origin/main`, so the work starts from the current remote regardless of the clone's age. Finish with a commit and a pull request to the area owner. Read `${CLAUDE_PLUGIN_ROOT}/references/working-in-the-repo.md` for the flow.
 
 ## Preconditions
 Before writing anything, check that at least one project is `live` in `projects/REGISTRY.md` with examples of this output type under `examples/<slug>/<type>/`. If none, say so and route to `onboard-project` and `harvest-examples` first. A skill built on drafts produces confident nonsense.

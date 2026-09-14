@@ -12,7 +12,7 @@ import re
 import sys
 from pathlib import Path
 
-from common import find_root, TEMPLATES, TODAY, _as_list, body, days, load_projects, load_standards, parse_frontmatter, read, standard_applies, to_date
+from common import check_fresh, find_root, TEMPLATES, TODAY, _as_list, body, days, load_projects, load_standards, parse_frontmatter, read, standard_applies, to_date
 import build_registry
 import validate_project
 
@@ -187,6 +187,9 @@ def main() -> int:
     ap.add_argument("--json", action="store_true")
     a = ap.parse_args()
     root = Path(a.target).expanduser().resolve() if a.target else find_root()
+    fresh = check_fresh(root)
+    if fresh:
+        print(fresh, file=sys.stderr)
     if not root.is_dir():
         print(f"not a directory: {root}", file=sys.stderr); return 2
     au = Audit(root); au.run()

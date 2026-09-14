@@ -10,7 +10,7 @@ import re
 import sys
 from pathlib import Path
 
-from common import (find_root, BANNED_WORDS, CONFORMANCE_TABLE, LIVE_REQUIRES_READY, READY_AREAS, REQUIRED_TRUTHS, SPEC, STATUSES, SURFACES, TIERS, VOICES,
+from common import (check_fresh, find_root, BANNED_WORDS, CONFORMANCE_TABLE, LIVE_REQUIRES_READY, READY_AREAS, REQUIRED_TRUTHS, SPEC, STATUSES, SURFACES, TIERS, VOICES,
                     _as_list, body, headings, load_projects, load_standards, parse_frontmatter, read,
                     required_files, standard_applies, to_date, TODAY)
 
@@ -252,6 +252,9 @@ def main() -> int:
     if a.target and not Path(a.target).expanduser().is_dir():
         a.slugs = [a.target] + a.slugs; a.target = None
     root = Path(a.target).expanduser().resolve() if a.target else find_root()
+    fresh = check_fresh(root)
+    if fresh:
+        print(fresh, file=sys.stderr)
     projects = load_projects(root)
     if a.slugs:
         projects = [p for p in projects if p["slug"] in a.slugs]

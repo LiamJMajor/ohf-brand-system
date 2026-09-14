@@ -13,7 +13,7 @@ import json
 import sys
 from pathlib import Path
 
-from common import (find_root, REQUIRED_TRUTHS, SPEC, SURFACES, TEMPLATES, TIERS, TODAY, VOICES,
+from common import (check_fresh, find_root, REQUIRED_TRUTHS, SPEC, SURFACES, TEMPLATES, TIERS, TODAY, VOICES,
                     fill, fill_template, load_standards, required_files, slug as mkslug, standard_applies, write)
 import build_registry
 
@@ -88,6 +88,9 @@ def main() -> int:
     ap.add_argument("--force", action="store_true")
     a = ap.parse_args()
     root = Path(a.target).expanduser().resolve() if a.target else find_root()
+    fresh = check_fresh(root)
+    if fresh:
+        print(fresh, file=sys.stderr)
     created = create_project(root, a.slug, a.name, a.tier, a.voice, a.owner, a.repo, a.website, a.pillars, a.surfaces, a.force)
     print(f"registered {a.slug} ({a.tier}, {a.voice} voice): {len(created)} files created")
     for c in created:

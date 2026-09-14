@@ -9,7 +9,7 @@ description: >
 Examples are where taste lives in a form a model can use. A flagship project cannot go live without at least three, and skills load them by project and output type, so this skill is picky about selection and strict about annotation.
 
 ## Where the repo is
-The brand system is the current working directory or the nearest parent containing `INDEX.md`, `core/` and `projects/`; the scripts find it the same way when given no path. If the user is not inside a clone, get them into one before writing anything. Work on a branch and finish with a commit and a pull request to the area owner. Read `${CLAUDE_PLUGIN_ROOT}/references/working-in-the-repo.md` for the flow.
+The brand system is the current working directory or the nearest parent containing `INDEX.md`, `core/` and `projects/`; the scripts find it the same way when given no path. If the user is not inside a clone, get them into one before writing anything. Before the first write: `git fetch origin && git switch -c <type>/<slug> origin/main`, so the work starts from the current remote regardless of the clone's age. Finish with a commit and a pull request to the area owner. Read `${CLAUDE_PLUGIN_ROOT}/references/working-in-the-repo.md` for the flow.
 
 ## Intake
 - **Project slug** and its `voice.md`, which you read first so selection is against the confirmed rules.

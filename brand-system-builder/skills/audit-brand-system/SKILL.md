@@ -9,7 +9,7 @@ description: >
 An agent-loaded repo with hundreds of projects decays in predictable ways: projects stall mid-onboarding, the registry drifts, facts go stale, rules turn back into adjectives, skills grow past budget, nobody deletes. This audit catches those before people meet them in the output.
 
 ## Where the repo is
-The brand system is the current working directory or the nearest parent containing `INDEX.md`, `core/` and `projects/`; the scripts find it the same way when given no path. If the user is not inside a clone, get them into one before writing anything. Work on a branch and finish with a commit and a pull request to the area owner. Read `${CLAUDE_PLUGIN_ROOT}/references/working-in-the-repo.md` for the flow.
+The brand system is the current working directory or the nearest parent containing `INDEX.md`, `core/` and `projects/`; the scripts find it the same way when given no path. If the user is not inside a clone, get them into one before writing anything. Before the first write: `git fetch origin && git switch -c <type>/<slug> origin/main`, so the work starts from the current remote regardless of the clone's age. Finish with a commit and a pull request to the area owner. Read `${CLAUDE_PLUGIN_ROOT}/references/working-in-the-repo.md` for the flow.
 
 ## Deterministic checks
 ```

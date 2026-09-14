@@ -220,3 +220,31 @@ def find_root(start: Path = None) -> Path:
             return d
     raise SystemExit("Not inside a brand system repository (no INDEX.md + core/ + projects/ found here or above). "
                      "cd into your clone of the brand system, or pass its path as the first argument.")
+
+
+def check_fresh(root: Path, fetch: bool = True) -> str:
+    """If root is inside a git clone with an origin, fetch quietly and report whether the checkout is behind
+    origin/main. Returns a one-line warning or empty string. Never raises; offline is silent."""
+    import subprocess
+    def git(*args):
+        return subprocess.run(["git", "-C", str(root), *args], capture_output=True, text=True, timeout=20)
+    try:
+        if git("rev-parse", "--is-inside-work-tree").returncode != 0:
+            return ""
+        if git("remote", "get-url", "origin").returncode != 0:
+            return ""
+        if fetch:
+            git("fetch", "--quiet", "origin", "main")
+        behind = git("rev-list", "--count", "HEAD..origin/main")
+        if behind.returncode != 0:
+            return ""
+        n = int(behind.stdout.strip() or 0)
+        if n:
+            return f"WARNING: this clone is {n} commit(s) behind origin/main. Run `git pull --ff-only origin main` before making changes."
+        dirty = git("status", "--porcelain").stdout.strip()
+        branch = git("rev-parse", "--abbrev-ref", "HEAD").stdout.strip()
+        if branch == "main" and dirty:
+            return "WARNING: uncommitted changes on main. Work on a branch: `git switch -c <type>/<slug> origin/main`."
+        return ""
+    except Exception:
+        return ""

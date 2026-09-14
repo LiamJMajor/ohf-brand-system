@@ -9,7 +9,7 @@ description: >
 Truths are the fast layer. Skills cite them by path and copy approved phrasing verbatim, so one update propagates everywhere. This skill keeps them current, keeps their history, verifies proof points, and reports downstream content that restated an old value.
 
 ## Where the repo is
-The brand system is the current working directory or the nearest parent containing `INDEX.md`, `core/` and `projects/`; the scripts find it the same way when given no path. If the user is not inside a clone, get them into one before writing anything. Work on a branch and finish with a commit and a pull request to the area owner. Read `${CLAUDE_PLUGIN_ROOT}/references/working-in-the-repo.md` for the flow.
+The brand system is the current working directory or the nearest parent containing `INDEX.md`, `core/` and `projects/`; the scripts find it the same way when given no path. If the user is not inside a clone, get them into one before writing anything. Before the first write: `git fetch origin && git switch -c <type>/<slug> origin/main`, so the work starts from the current remote regardless of the clone's age. Finish with a commit and a pull request to the area owner. Read `${CLAUDE_PLUGIN_ROOT}/references/working-in-the-repo.md` for the flow.
 
 ## Find what needs syncing
 1. List every file under `truths/`, frontmatter only.
