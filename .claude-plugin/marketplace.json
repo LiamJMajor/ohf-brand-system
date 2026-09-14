@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ohf-brand-system",
+  "description": "The Open Home Foundation brand system and the builder that maintains it.",
+  "owner": {
+    "name": "Open Home Foundation"
+  },
+  "plugins": [
+    {
+      "name": "brand-system-builder",
+      "description": "Skills that build and maintain a brand system: onboard projects, capture judgment, harvest examples, sync truths, codify workflows, define standards, evaluate skills, promote corrections, audit.",
+      "source": "./brand-system-builder",
+      "category": "productivity"
+    },
+    {
+      "name": "ohf-brand-system",
+      "description": "The OHF brand system itself: shared core, project voices, truths, examples and self-serve skills for building marketing to them.",
+      "source": "./ohf-brand-system",
+      "category": "productivity"
+    }
+  ]
+}
