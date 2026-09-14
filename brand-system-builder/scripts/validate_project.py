@@ -10,7 +10,7 @@ import re
 import sys
 from pathlib import Path
 
-from common import (BANNED_WORDS, CONFORMANCE_TABLE, LIVE_REQUIRES_READY, READY_AREAS, REQUIRED_TRUTHS, SPEC, STATUSES, SURFACES, TIERS, VOICES,
+from common import (find_root, BANNED_WORDS, CONFORMANCE_TABLE, LIVE_REQUIRES_READY, READY_AREAS, REQUIRED_TRUTHS, SPEC, STATUSES, SURFACES, TIERS, VOICES,
                     _as_list, body, headings, load_projects, load_standards, parse_frontmatter, read,
                     required_files, standard_applies, to_date, TODAY)
 
@@ -244,12 +244,14 @@ def validate(root: Path, fm: dict) -> dict:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("target")
+    ap.add_argument("target", nargs="?", default=None, help="brand system root; default: found from the current directory")
     ap.add_argument("slugs", nargs="*")
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--json", action="store_true")
     a = ap.parse_args()
-    root = Path(a.target).expanduser().resolve()
+    if a.target and not Path(a.target).expanduser().is_dir():
+        a.slugs = [a.target] + a.slugs; a.target = None
+    root = Path(a.target).expanduser().resolve() if a.target else find_root()
     projects = load_projects(root)
     if a.slugs:
         projects = [p for p in projects if p["slug"] in a.slugs]

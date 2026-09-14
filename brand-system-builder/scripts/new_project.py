@@ -13,7 +13,7 @@ import json
 import sys
 from pathlib import Path
 
-from common import (REQUIRED_TRUTHS, SPEC, SURFACES, TEMPLATES, TIERS, TODAY, VOICES,
+from common import (find_root, REQUIRED_TRUTHS, SPEC, SURFACES, TEMPLATES, TIERS, TODAY, VOICES,
                     fill, fill_template, load_standards, required_files, slug as mkslug, standard_applies, write)
 import build_registry
 
@@ -75,7 +75,7 @@ def create_project(root: Path, slug: str, name: str, tier: str, voice: str = "pr
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("target")
+    ap.add_argument("target", nargs="?", default=None, help="brand system root; default: found from the current directory")
     ap.add_argument("--slug", required=True)
     ap.add_argument("--name", required=True)
     ap.add_argument("--tier", required=True, choices=TIERS)
@@ -87,7 +87,7 @@ def main() -> int:
     ap.add_argument("--surfaces", default="", help="comma-separated: " + ",".join(SURFACES))
     ap.add_argument("--force", action="store_true")
     a = ap.parse_args()
-    root = Path(a.target).expanduser().resolve()
+    root = Path(a.target).expanduser().resolve() if a.target else find_root()
     created = create_project(root, a.slug, a.name, a.tier, a.voice, a.owner, a.repo, a.website, a.pillars, a.surfaces, a.force)
     print(f"registered {a.slug} ({a.tier}, {a.voice} voice): {len(created)} files created")
     for c in created:

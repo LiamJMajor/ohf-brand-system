@@ -12,7 +12,7 @@ import re
 import sys
 from pathlib import Path
 
-from common import TEMPLATES, TODAY, _as_list, body, days, load_projects, load_standards, parse_frontmatter, read, standard_applies, to_date
+from common import find_root, TEMPLATES, TODAY, _as_list, body, days, load_projects, load_standards, parse_frontmatter, read, standard_applies, to_date
 import build_registry
 import validate_project
 
@@ -183,9 +183,10 @@ class Audit:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("target"); ap.add_argument("--json", action="store_true")
+    ap.add_argument("target", nargs="?", default=None, help="brand system root; default: found from the current directory")
+    ap.add_argument("--json", action="store_true")
     a = ap.parse_args()
-    root = Path(a.target).expanduser().resolve()
+    root = Path(a.target).expanduser().resolve() if a.target else find_root()
     if not root.is_dir():
         print(f"not a directory: {root}", file=sys.stderr); return 2
     au = Audit(root); au.run()

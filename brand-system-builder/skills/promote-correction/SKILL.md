@@ -8,6 +8,9 @@ description: >
 
 A correction that lives in Slack is gone by lunch. This skill makes each one a commit in exactly one place, and keeps the repo from filling with rules that were one person's preference on one Tuesday.
 
+## Where the repo is
+The brand system is the current working directory or the nearest parent containing `INDEX.md`, `core/` and `projects/`; the scripts find it the same way when given no path. If the user is not inside a clone, get them into one before writing anything. Work on a branch and finish with a commit and a pull request to the area owner. Read `${CLAUDE_PLUGIN_ROOT}/references/working-in-the-repo.md` for the flow.
+
 ## Intake
 - The correction, verbatim if short; both versions if it is a diff.
 - Who made it and their standing: project owner, requester, colleague.

@@ -209,3 +209,14 @@ def standard_applies(std: dict, project: dict) -> bool:
     if project.get("slug") in _as_list(std.get("applies_projects")):
         return True
     return False
+
+
+def find_root(start: Path = None) -> Path:
+    """Walk up from start (default cwd) to the nearest directory that looks like a brand system:
+    has INDEX.md and projects/. Raises SystemExit with guidance if none is found."""
+    cur = (start or Path.cwd()).resolve()
+    for d in [cur] + list(cur.parents):
+        if (d / "INDEX.md").exists() and (d / "projects").is_dir() and (d / "core").is_dir():
+            return d
+    raise SystemExit("Not inside a brand system repository (no INDEX.md + core/ + projects/ found here or above). "
+                     "cd into your clone of the brand system, or pass its path as the first argument.")

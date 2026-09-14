@@ -1,0 +1,19 @@
+# Working in the OHF brand system
+
+This repository is loaded by agents and maintained by people. Read `INDEX.md` first; it is the only always-loaded file and tells you what to open for a given task.
+
+## If you are building something (a post, a page, a deck)
+Find the project in `projects/REGISTRY.md`. Build only against status `live`, and only in the areas listed in its `ready:`. Load `core/voices.md` and decide the voice first. Name the pillar. Copy boilerplate verbatim. Cite truths by path. Load every `core/standards/*.md` that matches your output type. Every Home Assistant output currently requires a human sign-off before publishing.
+
+## If you are maintaining the system
+Use the `brand-system-builder` plugin: `onboard-project`, `capture-judgment`, `harvest-examples`, `sync-truths`, `codify-workflow`, `define-standard`, `evaluate-skill`, `promote-correction`, `audit-brand-system`. Install it once with `/plugin marketplace add LiamJMajor/ohf-brand-system` then `/plugin install brand-system-builder@ohf-brand-system`.
+
+## Rules for changes
+- Work on a branch. Open a pull request to `main`. The reviewer is the area owner in `OWNERS.md` or the project owner in `REGISTRY.md`.
+- Run the validator before committing: `python3 <builder>/scripts/validate_project.py <slug>` from anywhere inside this clone. Run the audit for anything touching `core/` or `core/standards/`.
+- Every change that alters a rule, a fact or a standard gets a `decisions/YYYY-MM-DD-<slug>.md` entry in the same pull request.
+- Never restate a truth; cite `truths/<slug>/...`. Never copy core content into a project; project files hold only the project's own translation.
+- Project names are never shortened.
+
+## Layout
+`core/` shared story, pillars, voices, escalation, channels, standards. `projects/<slug>/` one identically shaped directory per voice: brand, design, marketing, standards. `truths/` dated facts. `examples/` annotated approved work. `skills/` self-serve workflows per beat. `decisions/` why things are the way they are.

@@ -8,6 +8,9 @@ description: >
 
 A standard is one markdown file in the brand system. The validator, the audit and every skill read standards from the repo, so adding one changes what agents check and load without any code or skill edit. This skill helps the marketing team write that file well and see where it lands.
 
+## Where the repo is
+The brand system is the current working directory or the nearest parent containing `INDEX.md`, `core/` and `projects/`; the scripts find it the same way when given no path. If the user is not inside a clone, get them into one before writing anything. Work on a branch and finish with a commit and a pull request to the area owner. Read `${CLAUDE_PLUGIN_ROOT}/references/working-in-the-repo.md` for the flow.
+
 ## Intake
 1. **What it governs**, in one sentence, and the failure it prevents.
 2. **Scope**:

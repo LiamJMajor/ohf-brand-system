@@ -8,7 +8,7 @@ import argparse
 import sys
 from pathlib import Path
 
-from common import TIERS, TODAY, load_projects
+from common import find_root, TIERS, TODAY, load_projects
 
 ORDER = {t: i for i, t in enumerate(TIERS)}
 
@@ -28,10 +28,10 @@ def render(root: Path) -> str:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("target")
+    ap.add_argument("target", nargs="?", default=None, help="brand system root; default: found from the current directory")
     ap.add_argument("--check", action="store_true")
     a = ap.parse_args()
-    root = Path(a.target).expanduser().resolve()
+    root = Path(a.target).expanduser().resolve() if a.target else find_root()
     reg = root / "projects" / "REGISTRY.md"
     text = render(root)
     if a.check:
