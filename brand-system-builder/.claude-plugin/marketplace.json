@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "brand-system-builder",
+  "description": "The system that builds the brand system. Install this to scaffold and maintain your org's self-serve brand repository.",
+  "owner": {
+    "name": "Open Home Foundation"
+  },
+  "plugins": [
+    {
+      "name": "brand-system-builder",
+      "description": "Skills for building and maintaining a brand-as-software repository.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

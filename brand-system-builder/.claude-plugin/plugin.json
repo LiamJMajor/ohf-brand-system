@@ -1,0 +1,8 @@
+{
+  "name": "brand-system-builder",
+  "version": "0.1.0",
+  "description": "Skills that build and maintain an org-wide brand-as-software repository: scaffold it, capture expert judgment into it, codify recurring requests as self-serve skills, harvest approved examples, feed corrections back, keep product truths current, and audit its health.",
+  "author": {
+    "name": "Open Home Foundation"
+  }
+}
