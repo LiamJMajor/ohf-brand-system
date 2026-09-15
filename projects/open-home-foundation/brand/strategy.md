@@ -37,8 +37,12 @@ Explains its own mechanics — funding, board, partner obligations — in public
 - Yes: "The foundation has no financial obligation to its partners" (https://www.openhomefoundation.org/structure/)
 - No: "We are proudly independent."
 
-### TODO fourth attribute
-TODO interview. The three above are all about credibility; none captures the register of Community Day or the annual report, which are celebratory rather than argumentative.
+### Playful with the format
+Refuses the conventions of whatever category it is operating in, and makes the argument through the form rather than only in the copy. Because the foundation is arguing that the defaults are wrong, and a body that accepts every default of its own category is not credible making that case. Confirmed in interview 2026-09-15.
+- Yes: a framed cross-stitch reading "fuck VCs and private equity", hung on a trade show wall between the cushions and the coffee (https://www.openhomefoundation.org/blog/making-room-for-privacy-choice-and-sustainability-at-ifa-2026/)
+- No: a printed values statement in a perspex holder
+
+Distinct from *Hospitable, not institutional*, which is about how the foundation receives people. This one is about what it is willing to do to the format to land a point. The IFA booth did both at once, which is why it worked; either without the other is a sofa nobody remembers, or a provocation nobody stays for.
 
 ## Pillar translations
 One per pillar in PROJECT.md. What the Open Home Foundation concretely does about the belief — not what its projects do.
