@@ -28,6 +28,15 @@ This is a core change made in a project onboarding branch. It is one character, 
 ## Strong language, where it is earned
 The IFA 2026 post reproduced a cross-stitch reading "fuck VCs and private equity" in foundation voice on the foundation's own blog. The ruling is that this is house voice, not an outlier, and it extends past quoting artefacts to the foundation's own sentences.
 
-The limit is that the profanity has to carry the argument. "fuck VCs and private equity" names the exact outcome the foundation's legal structure exists to prevent. Profanity as intensifier does no work and is out. Sanitising — asterisks, "[expletive]" — is specifically out, because it concedes the point the language is making.
+The limit is that the profanity has to carry the argument. "fuck VCs and private equity" names the exact outcome the foundation's legal structure exists to prevent. Profanity as intensifier does no work and is out. Sanitising for respectability (asterisks, "[expletive]") is specifically out, because it concedes the point the language is making. See the amendment below, which narrows this for social channels on distribution grounds rather than editorial ones.
 
 Scoped to the foundation voice only. Project voices inherit nothing here; a project wanting the same latitude writes it into its own `voice.md`.
+
+### Amended the same day: censoring on social
+On social channels the word is written "f\*ck". The original ruling said no asterisks anywhere, and this narrows it.
+
+The two rulings do not conflict, because they answer different questions. The interview ruling was about editorial nerve: do not soften the foundation's language to sound respectable. This amendment is about distribution: a platform may down-rank a post carrying profanity, and a post nobody sees makes no argument at all. Softening for courage is still banned. Softening to get through a ranking filter is permitted, on social only.
+
+The basis is explicitly unverified, and was flagged as such by the person who made the call. No test has been run here; platform behaviour differs between organic and promoted reach and changes without notice. `brand/style.md` records what would settle it — the same post censored on one network and uncensored on another with comparable audiences — so that this is revisited rather than quietly inherited as fact.
+
+Worth noting the cost. The foundation's argument at IFA was partly carried by refusing the conventions of the category it was in. Accepting a platform's convention to get reach on that platform is the same trade in the other direction, made deliberately.

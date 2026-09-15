@@ -4,7 +4,16 @@ This repository is loaded by agents and maintained by people. Read `INDEX.md` fi
 
 ## If you are building something (a post, a page, a deck)
 You do not need a clone. Install the `ohf-brand-system` plugin from the marketplace and refresh it; that is the current `main`. If you are reading this in a clone, run `git pull --ff-only origin main` first.
-Find the project in `projects/REGISTRY.md`. Build only against status `live`, and only in the areas listed in its `ready:`. Load `core/voices.md` and decide the voice first. Name the pillar. Copy boilerplate verbatim. Cite truths by path. Load every `core/standards/*.md` that matches your output type. Every Home Assistant output currently requires a human sign-off before publishing.
+
+In order:
+1. Find the project in `projects/REGISTRY.md`. Build only against status `live`, and only in the areas listed in its `ready:`. If it is not live, you may still draft, but say so plainly in your output and name what you built from instead.
+2. Load `core/voices.md` and decide the voice. Name the pillar.
+3. **Load `examples/<slug>/<type>/` before you draft.** Two or three matching the project and output type. Examples carry register and mechanics that no rule file states, and a draft written without them will be wrong in ways the validator cannot catch. If the directory is empty, say so in your output rather than guessing from a neighbouring surface: a project's blog voice does not predict its social voice.
+4. Load the project's `brand/voice.md` and `brand/style.md`. Voice carries the rules and modes; style carries the mechanics, which is where most rejections happen.
+5. Copy boilerplate verbatim. Cite truths by path. A proof point with Verified empty is not usable, whatever else is true of it.
+6. Load every `core/standards/*.md` that matches your output type.
+
+Every Home Assistant output currently requires a human sign-off before publishing. No equivalent policy exists for the foundation voice; `core/escalation.md` governs it alone.
 
 ## If you are maintaining the system
 Use the `brand-system-builder` plugin: `onboard-project`, `capture-judgment`, `harvest-examples`, `sync-truths`, `codify-workflow`, `define-standard`, `evaluate-skill`, `promote-correction`, `audit-brand-system`. It lives in its own repository. Install it once with `/plugin marketplace add LiamJMajor/brand-system-builder` then `/plugin install brand-system-builder@brand-system-builder`.

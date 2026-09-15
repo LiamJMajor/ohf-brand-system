@@ -33,7 +33,8 @@ Mechanics. The things agents get wrong most often. Drafted 2026-09-15 by observi
   - Yes: "the answers are yours!" / "now free for everyone: a rich dataset published openly"
   - No: "We built a living room at IFA Berlin — sofas, plants, coffee."
 - En dashes in number ranges are fine ("September 4–8"), though "from 4 to 8 September" reads better in prose.
-- Ampersand: used freely in social copy where it keeps a long sentence moving ("hosts & guests", "& more"). Spelled out in blog prose and anything press-facing.
+- **Ampersands: never.** Always "and", in every register including social (interview 2026-09-15). The only exception is a name that contains one ("Product & UX" as a job title).
+  - This was briefly recorded as the opposite, inferred from a single approved post that uses "hosts & guests" and "& more". One post is not a pattern, and the ruling went the other way. That post is annotated as an outlier in `examples/open-home-foundation/social-post/2026-09-community-day-countdown.md`.
 
 ## Formatting
 - Links: descriptive text. TODO confirm the rule for linking to a project's own site versus the foundation's.
@@ -55,15 +56,30 @@ Terms the foundation uses in a specific sense, where a writer would otherwise re
 | TODO | TODO | TODO |
 
 ## Strong language
-Permitted wherever it is earned, in the foundation's own sentences as well as in quoted artefacts (interview 2026-09-15). No channel carve-out, no asterisks, no "[expletive]". The foundation is anti-corporate by design and saying so plainly is the argument, not a lapse from it.
+Permitted wherever it is earned, in the foundation's own sentences as well as in quoted artefacts (interview 2026-09-15). The foundation is anti-corporate by design and says so plainly.
 
 Earned is the operative word and it is checkable: the profanity has to be carrying the point. "fuck VCs and private equity" on a cross-stitch at IFA names the specific thing the foundation's structure exists to prevent (https://www.openhomefoundation.org/blog/making-room-for-privacy-choice-and-sustainability-at-ifa-2026/). Profanity as intensifier ("this is a fucking great release") is doing no work and is just noise in a different register.
 
 - Yes: "fuck VCs and private equity"
-- No: "f**k VCs and private equity". Sanitising it concedes the point
 - No: "this update is fucking great". Intensifier doing no work
 
 This rule is the foundation's, not the ecosystem's. Project voices inherit nothing from it; a project wanting the same latitude asks for it in its own `voice.md`.
+
+### Censoring on social, and only on social
+On social channels, write "f\*ck". One asterisk, second character (correction 2026-09-15).
+
+Two different reasons to soften a word, and only one of them is allowed:
+
+| Reason | Ruling |
+|---|---|
+| To sound more respectable, or because it feels risky | Never. This concedes the argument the language is making, and it is what the interview ruling was written against |
+| Because a platform's ranking may penalise the post and fewer people will see it | Allowed, on social only. The word is not the goal; the argument reaching people is |
+
+**The basis is unverified.** The belief is that social platforms down-rank posts containing profanity. It was recorded as a belief, not a finding, by the person who made the call. Nobody has tested it here, platform behaviour differs between organic reach and anything promoted, and it changes without notice.
+
+What would settle it: run the same post censored on one network and uncensored on another with comparable audiences, and compare reach. Until somebody does, this is a cheap hedge carrying a real cost, and it should be revisited rather than inherited.
+
+Everywhere else — the blog, the website, press materials, the printed artefacts themselves — stays uncensored. A cross-stitch does not have an algorithm.
 
 ## Constructions that give a draft away
 Banned outright (interview 2026-09-15). These are the shapes generated copy falls into, and they are all recognisable enough that a reader discounts everything around them.

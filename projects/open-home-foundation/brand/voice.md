@@ -9,7 +9,7 @@ draft: false
 
 # Open Home Foundation: voice
 
-Inherits `core/voices.md` (foundation voice). Five rules. The first four were drafted from the foundation's own blog and home page and confirmed in interview on 2026-09-15; the fifth came out of a rejected social draft the same day. Each Yes is real published work; each No is constructed for contrast.
+Inherits `core/voices.md` (foundation voice). Six rules. The first four were drafted from the foundation's own blog and home page and confirmed in interview on 2026-09-15; the fifth and sixth came out of rejected social drafts the same day. Each Yes is real published work; each No is constructed for contrast.
 
 ## Sounds like
 | | Open Home Foundation |
@@ -49,6 +49,15 @@ The blog already does this and social has been skipping it. The gloss is usually
 - Yes: "IFA Berlin welcomes everyday visitors, distinguishing it from industry-only events like CES Las Vegas." (https://www.openhomefoundation.org/blog/making-room-for-privacy-choice-and-sustainability-at-ifa-2026/)
 - No: "Our first booth at IFA Berlin was no ordinary trade stand."
 
+### The technology is the argument, not the backdrop
+When the foundation writes about something it built, the smart home is the subject. The charm around it, the sofas, the coffee, the omotenashi, is how the argument is delivered and never a substitute for it. Because the claim being made is that a private, local, cross-brand smart home *works*, and a post that lists the cushions and omits the devices has quietly conceded that the tech was not the interesting part (correction 2026-09-15).
+
+The IFA booth was a smart living room. Every device in it was smart, from different brands, running locally on one Home Assistant Green. Three consecutive drafts described the furniture and buried or dropped that, which inverted the whole point.
+
+Test before publishing: strike every sentence about atmosphere. Is there still a smart home in the post? If not, rewrite.
+- Yes: "Every device in the room was smart, each a different brand, all running locally."
+- No: "Sofas, plants, coffee, a playable CD wall, and a cross-stitch reading "fuck VCs and private equity"."
+
 ## Modes
 Mode is set by set-piece versus steady state, not by audience or stakes (interview 2026-09-15). The foundation is in public constantly; what changes is whether this is a moment it has built toward.
 
@@ -56,7 +65,7 @@ Mode is set by set-piece versus steady state, not by audience or stakes (intervi
 |---|---|---|---|---|---|
 | Low | Steady state: forum and social replies, a comment on someone else's thread, day-to-day presence | as short as the answer needs | conversational, first person, unhurried | community (Discord, Reddit, Discourse), social replies | the rules; facts cited; never speaks ahead of a project |
 | Medium | A blog post: an argument, a write-up, a piece of news the foundation owns | long-form, sectioned, subheads in sentence case | plain and warm; makes one argument and evidences it | blog, newsletter | the rules; facts cited; named criticism carries its obligations |
-| Medium, social | The social post carrying a blog post or an announcement | 250–300 characters, three short paragraphs | lighter and more playful than the blog it points at; emoji in the opening line and a 👇 at the link | social, in one copy across networks | the rules; every reference glossed; link alone on the last line |
+| Medium, social | The social post carrying a blog post or an announcement | under 280 characters of body, link excluded (the X and Bluesky cap); three short paragraphs | lighter and more playful than the blog it points at; emoji in the opening line and a 👇 at the link | social, in one copy across networks | the rules; every reference glossed; link alone on the last line |
 | High | The set pieces: Community Day, State of the Open Home, the Annual Report, IFA and equivalent events | one idea, many formats, sustained over days | celebratory, and playful with the format itself; the argument gets made by what we build as much as by what we write | all, including press and live | the rules; facts cited; a set piece is still never a sales push |
 
 The register does not soften as the stakes rise. A named call-out in Low reads the same as one in High; what changes is how much is built around it.

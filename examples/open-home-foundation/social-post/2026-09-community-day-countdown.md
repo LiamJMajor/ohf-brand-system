@@ -31,15 +31,19 @@ Social post promoting a blog announcement. Supplied by @liam on 2026-09-15 as a 
 - "hosts & guests" tells two different audiences that there is something here for each of them, in four words.
 - The middle names three concrete things the blog contains. It does not describe the blog; it lists what you get.
 - "& more 👇🏼" is the handoff. The emoji does the work a "read more" button would.
-- Ampersand rather than "and" twice, which keeps a long middle sentence moving.
 - The full organisation name appears in full ("official Open Home Foundation merchandise"), never shortened.
+
+## Outlier: the ampersands
+This post uses "hosts & guests" and "& more". Do not copy that. House style is "and" everywhere, including social (interview 2026-09-15).
+
+Flagged here because this file was briefly used as evidence for the opposite rule. One post is not a pattern, and a habit visible in an approved example is not thereby approved. When an example and a rule disagree, the rule wins and the example gets an annotation like this one.
 
 ## What to copy
 - One-line opening carrying the news, with an emoji and usually an exclamation mark.
 - Name the audience early when the post serves more than one.
 - List what is behind the link rather than characterising it.
 - 👇 immediately before the link; link alone on the final line.
-- Same copy across networks unless a platform limit forces a trim.
+- Same copy across networks unless a platform limit forces a trim. X and Bluesky cap the body at 280 characters, link excluded.
 
 ## What not to copy
 - Nothing here is single-use. This is the closest thing to a template the foundation has for blog promotion.

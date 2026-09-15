@@ -58,6 +58,13 @@ The `/about/` pillar set is canonical (interview 2026-09-15). Imperative plus re
 | Design your smart home. The way you like it. | Choice pillar | canonical |
 | Consume less. So you can save more. | Sustainability pillar | canonical |
 
+### Taglines are not sign-offs
+Canonical does not mean droppable-in. A tagline bolted onto the end of a post as a closing line reads as a slogan, and the more familiar the line the worse it lands (interview 2026-09-15: "Live your life. Because nobody is watching." was cut from an Instagram draft for exactly this).
+
+Taglines belong on surfaces that hold still: the home page, a profile bio, a banner, a stand. In a post, the last line should be the pointer at the thing (`Read how it went 👇`, `Link in bio 👇`), not a restatement of what the foundation believes. That is also the "Show us doing it, not believing it" rule in `brand/voice.md` arriving at the same place.
+
+Open question for the owner: the line was cut as cliché in that placement. If the problem is the line rather than the placement, its `canonical` status here needs revisiting. Recorded as a placement rule for now, which is the narrower reading.
+
 ### Superseded
 The home page currently runs a second, more literal set: "Control your personal data. Share only what you want. With whom you want." / "Mix and match devices. Across manufacturers." / "Repurpose your hardware. And reduce your environmental impact."
 
