@@ -14,7 +14,7 @@ One section per audience. Key messages in messaging.md mirror these headings. Dr
 ## People who live in a smart home and have never been offered an alternative
 **Cares about:** their stuff working, and not being watched or upsold. The IFA post describes them as ranging from tech enthusiasts to people who just want reliable devices and have no awareness of the privacy question.
 **Found on:** IFA and other public-facing events, mainstream press, social. Not in the forums yet.
-**Comes to us from:** a bad experience — a device bricked after an acquisition, a feature moved behind a subscription, an app that stopped working.
+**Comes to us from:** a bad experience: a device bricked after an acquisition, a feature moved behind a subscription, an app that stopped working.
 **Objections:** sounds technical; sounds like it needs a project; I already bought into an ecosystem.
 
 ## Press and industry

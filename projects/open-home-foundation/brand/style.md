@@ -19,19 +19,28 @@ Mechanics. The things agents get wrong most often. Drafted 2026-09-15 by observi
 ## Capitalisation
 - Headings and blog titles: sentence case. "Making room for privacy, choice, and sustainability at IFA 2026". "A big win for Android interoperability". Proper nouns keep their capitals.
 - Subheads within a post: sentence case. "Opening the doors to the public", "People at the heart of the home".
-- Colon constructions in titles capitalise the second half: "Anonymous and open to all: The Home Assistant survey dataset", "Proxy all the things: no device left behind". ⚠️ Inconsistent in the wild — the first capitalises after the colon, the second does not. TODO rule.
+- Colon constructions in titles capitalise the second half: "Anonymous and open to all: The Home Assistant survey dataset", "Proxy all the things: no device left behind". ⚠️ Inconsistent in the wild: the first capitalises after the colon, the second does not. TODO rule.
 - Project and organisation names: see naming.md.
 
 ## Numbers and dates
 - Numbers: figures with thousands separators, "8,616 Home Assistant users". Approximations spelled as "over 250", not "250+".
-- Dates: "Saturday, November 7, 2026" (US long form, weekday first where the day matters). Ranges: "From September 4 to 8, 2026". TODO confirm the short form and whether the year is always written.
+- Dates: "Saturday, November 7, 2026" (US long form, weekday first where the day matters). Ranges: "From September 4 to 8, 2026". Short form in social copy abbreviates the month and drops the year when it is obvious: "starting Sept 17" (example 2026-09-15).
 - Read time appears on blog posts as "5 minute read". TODO confirm whether this is authored or generated.
+
+## Punctuation
+- **Em dashes: never.** Not in published copy, in any register, on any surface (interview 2026-09-15). Use a colon, a full stop, a comma, or a line break. This is the single most common way drafted copy gives itself away, and an agent will reach for one roughly every second paragraph unless told not to.
+  - Yes: "We're closing our merch store‼️ / (temporarily)". A line break carries it
+  - Yes: "the answers are yours!" / "now free for everyone: a rich dataset published openly"
+  - No: "We built a living room at IFA Berlin — sofas, plants, coffee."
+- En dashes in number ranges are fine ("September 4–8"), though "from 4 to 8 September" reads better in prose.
+- Ampersand: used freely in social copy where it keeps a long sentence moving ("hosts & guests", "& more"). Spelled out in blog prose and anything press-facing.
 
 ## Formatting
 - Links: descriptive text. TODO confirm the rule for linking to a project's own site versus the foundation's.
 - Emphasis: TODO. Bold subheads appear in the IFA post; unclear whether that is house style or that author's.
 - Quotes from people: TODO. The IFA post quotes a contributor by first name only ("Web developer Darren"); `/about/` quotes the president in full. Confirm the rule for first name, full name, and role.
-- Emoji: TODO. None observed in foundation blog copy, in contrast to Home Assistant's release posts, which fix "🎉" as house style. If the absence is deliberate, it is a rule worth writing down.
+- Emoji: **yes on social, and expected** (examples 2026-09-15). Every approved social post carries at least one. The pattern is one in the opening line carrying the mood (‼️ 🥳 🎉 👀) and a 👇 immediately before the link. Blog prose is a different surface and carries none. An emoji-free foundation social post reads as somebody else's copy.
+- Social posts end with the link alone on its own line, preceded by a 👇 pointer.
 
 ## Glossary
 Terms the foundation uses in a specific sense, where a writer would otherwise reach for a loose synonym. Drafted from observed usage; the interview confirms and extends.
@@ -48,10 +57,22 @@ Terms the foundation uses in a specific sense, where a writer would otherwise re
 ## Strong language
 Permitted wherever it is earned, in the foundation's own sentences as well as in quoted artefacts (interview 2026-09-15). No channel carve-out, no asterisks, no "[expletive]". The foundation is anti-corporate by design and saying so plainly is the argument, not a lapse from it.
 
-Earned is the operative word and it is checkable: the profanity has to be carrying the point. "fuck VCs and private equity" on a cross-stitch at IFA names the specific thing the foundation's structure exists to prevent (https://www.openhomefoundation.org/blog/making-room-for-privacy-choice-and-sustainability-at-ifa-2026/). Profanity as intensifier — "this is a fucking great release" — is doing no work and is just noise in a different register.
+Earned is the operative word and it is checkable: the profanity has to be carrying the point. "fuck VCs and private equity" on a cross-stitch at IFA names the specific thing the foundation's structure exists to prevent (https://www.openhomefoundation.org/blog/making-room-for-privacy-choice-and-sustainability-at-ifa-2026/). Profanity as intensifier ("this is a fucking great release") is doing no work and is just noise in a different register.
 
 - Yes: "fuck VCs and private equity"
-- No: "f**k VCs and private equity" — sanitising it concedes the point
-- No: "this update is fucking great" — intensifier, not argument
+- No: "f**k VCs and private equity". Sanitising it concedes the point
+- No: "this update is fucking great". Intensifier doing no work
 
 This rule is the foundation's, not the ecosystem's. Project voices inherit nothing from it; a project wanting the same latitude asks for it in its own `voice.md`.
+
+## Constructions that give a draft away
+Banned outright (interview 2026-09-15). These are the shapes generated copy falls into, and they are all recognisable enough that a reader discounts everything around them.
+
+| Never | Why | Instead |
+|---|---|---|
+| "It's not X, it's Y" and every variant: "X isn't just Y, it's Z", "Most people do X. We did Y." | The negative-parallel setup. It manufactures a contrast the reader did not ask for, and it is the single most recognisable tell | State the thing. "We built a living room at IFA Berlin." |
+| The standalone summary sentence: "That's the point." "Both halves are the argument." "And that changes everything." | A short declarative closing a paragraph to tell the reader what they just read means. Condescending, and always cuttable | Cut it. If the paragraph did not land, fix the paragraph |
+| Triads that escalate into abstraction: "no account, no subscription, no compromise" | The first two are concrete, the third is filler carried by rhythm | Two concrete items beat three where the third is decoration |
+| "Here's the thing", "Let's be clear", "The reality is" | Throat-clearing that promises candour instead of being candid | Delete and start at the next word |
+
+The house alternative is visible in every approved example: open with the news, give the facts, point at the link. The foundation's own posts do not argue by construction, they argue by what they show.

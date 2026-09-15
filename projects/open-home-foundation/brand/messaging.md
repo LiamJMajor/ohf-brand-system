@@ -14,7 +14,7 @@ Derives from strategy.md. Agents copy Boilerplate verbatim; long-form builds fro
 **Not usable yet.** Boilerplate and taglines were confirmed in interview on 2026-09-15, but every figure in them cites a proof-point row whose Verified column is empty, which `core/escalation.md` treats as not usable. The words are settled; the facts inside them are not. Verifying `truths/open-home-foundation/proof-points.md` is the only thing standing between this file and use.
 
 ## Key messages
-One per audience in audiences.md. Drafted 2026-09-15 and not yet walked with the owner — the interview covered boilerplate, taglines and the pillar translations, and ran out before these.
+One per audience in audiences.md. Drafted 2026-09-15 and not yet walked with the owner. The interview covered boilerplate, taglines and the pillar translations, and ran out before these.
 
 ### People who live in a smart home and have never been offered an alternative
 Your home should not have a landlord. The devices you already own can work together, locally, without an account, a subscription, or a company deciding one day that the feature you bought is now a monthly fee. That is not a hypothetical: it is over 250 open source projects that already exist, owned by a non-profit so nobody can take them away.
@@ -36,7 +36,7 @@ Your work cannot be acquired out from under you. The foundation owns the project
 TODO. No published piece addresses this audience; the interview writes this one from scratch.
 
 ## Boilerplate
-The short version does the credentials job; only the long version has room to make the argument first (interview 2026-09-15). They open differently on purpose — do not "harmonise" them.
+The short version does the credentials job; only the long version has room to make the argument first (interview 2026-09-15). They open differently on purpose. Do not "harmonise" them.
 
 ### One line
 The non-profit that fights for privacy, choice, and sustainability in the smart home.
@@ -63,7 +63,7 @@ The home page currently runs a second, more literal set: "Control your personal 
 
 These are not a second register to pick from. They are drift, and the home page is the most-read surface carrying them. Agents copy the canonical set above; correcting the home page is a website job, tracked in `PROJECT.md` follow-ups.
 
-The literal phrasings are still useful as *explanation* — when a reader needs to know what a pillar concretely means, that wording says it. Use it as prose, never as the tagline.
+The literal phrasings are still useful as *explanation*: when a reader needs to know what a pillar concretely means, that wording says it. Use it as prose, never as the tagline.
 
 ## We don't say
 | Avoid | Say instead | Why |

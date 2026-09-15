@@ -33,7 +33,7 @@ Meets people as a host, not as an authority. Because the argument is that the ho
 - No: a stand with a demo counter and a lead-capture form
 
 ### Structurally honest
-Explains its own mechanics — funding, board, partner obligations — in public, unprompted. Because "we are not for sale" is a claim, and the Stiftung, the board and the partner contracts are the evidence.
+Explains its own mechanics (funding, board, partner obligations) in public, unprompted. Because "we are not for sale" is a claim, and the Stiftung, the board and the partner contracts are the evidence.
 - Yes: "The foundation has no financial obligation to its partners" (https://www.openhomefoundation.org/structure/)
 - No: "We are proudly independent."
 
@@ -45,17 +45,17 @@ Refuses the conventions of whatever category it is operating in, and makes the a
 Distinct from *Hospitable, not institutional*, which is about how the foundation receives people. This one is about what it is willing to do to the format to land a point. The IFA booth did both at once, which is why it worked; either without the other is a sofa nobody remembers, or a provocation nobody stays for.
 
 ## Pillar translations
-One per pillar in PROJECT.md. What the Open Home Foundation concretely does about the belief — not what its projects do.
+One per pillar in PROJECT.md. What the Open Home Foundation concretely does about the belief, not what its projects do.
 
 ### Privacy
 Owns the projects that make local-first possible, and practises it on its own surfaces: analytics self-hosted on open source software with no personal data collected, survey data published anonymised and open. Argues for local processing as the default in public consultations rather than as a premium tier.
 
 ### Choice
-Owns and funds the standards, drivers and libraries that let devices from different makers work together, and intervenes where a gatekeeper closes that door — as in the European Commission process that required Alphabet to open 11 Android features.
+Owns and funds the standards, drivers and libraries that let devices from different makers work together, and intervenes where a gatekeeper closes that door, as in the European Commission process that required Alphabet to open 11 Android features.
 
 ### Sustainability
 Keeps hardware useful past its maker's interest in it, by owning the drivers and proxies that keep old devices addressable, and by holding the projects in a structure that cannot abandon them after an acquisition.
 
-Real ongoing work, under-evidenced in public (interview 2026-09-15). Privacy has the Plausible migration and the open survey dataset; choice has the Android interoperability outcome; sustainability has one blog post about proxying old devices. The work happens continuously and quietly — a driver that keeps a discontinued device addressable is sustainability, and it ships in a release note, not an announcement.
+Real ongoing work, under-evidenced in public (interview 2026-09-15). Privacy has the Plausible migration and the open survey dataset; choice has the Android interoperability outcome; sustainability has one blog post about proxying old devices. The work happens continuously and quietly. A driver that keeps a discontinued device addressable is sustainability, and it ships in a release note, not an announcement.
 
 The gap is evidential, not strategic, and the fix belongs in `truths/`, not here. Writing a more confident translation would paper over a thin proof base rather than thicken it. Until there are proof points, sustainability claims stay at the level this paragraph supports.

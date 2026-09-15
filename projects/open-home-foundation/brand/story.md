@@ -39,4 +39,4 @@ Board (https://www.openhomefoundation.org/structure/):
 
 Six leadership roles cover Home Assistant, Marketing, Product & UX, Ecosystem, Community, and Back Office.
 
-TODO interview: names are published on the foundation's own site, but consent for reuse in press materials is a separate question. Confirm which names a writer may use unprompted, and how the community is described collectively ("contributors", "the community", "volunteers" — the IFA post uses all three).
+TODO interview: names are published on the foundation's own site, but consent for reuse in press materials is a separate question. Confirm which names a writer may use unprompted, and how the community is described collectively ("contributors", "the community", "volunteers"; the IFA post uses all three).
