@@ -2,37 +2,54 @@
 area: brand/strategy
 project: open-home-foundation
 owner: @liam
-last_reviewed: 2026-09-14
+last_reviewed: 2026-09-15
 review_every: 180d
 draft: true
 ---
 
 # Open Home Foundation: strategy
 
-The source every other brand file derives from.
+The source every other brand file derives from. Drafted 2026-09-15 from public sources.
 
 ## Purpose
-TODO: why this project exists, one paragraph, no adjectives.
+The home is becoming a computer, and the question of who controls it is being settled now (`core/story.md`). The Open Home Foundation exists so that the answer is not the one the phone and the feed got. It owns the projects outright, in a legal structure that cannot be acquired, and it argues in public for privacy, choice and sustainability whoever is failing to deliver them.
 
 ## Positioning
-TODO: for whom, what it is, why it matters, what makes it different. Two sentences. If a competitor's name could be swapped in, it is not positioning.
+For everyone who lives in a smart home, the Open Home Foundation is the non-profit that owns and defends the open home's infrastructure, so that the software running your house answers to you rather than to a company's next quarter. It is the only party in the smart home with no product to sell you and no acquisition to plan for, which is what makes both its praise and its criticism worth reading.
+
+Swap test: no competitor's name fits the second sentence. TODO confirm the first.
 
 ## Personality
-Attributes as decisions with contrast pairs, not adjectives.
+Attributes as decisions with contrast pairs, not adjectives. Drafted from published work; see `brand/voice.md` for the same evidence expressed as writing rules.
 
-### TODO attribute
-TODO what it means in practice. Because TODO.
-- Yes: "TODO"
-- No: "TODO"
+### Specific about who
+Names the actor and the conduct rather than gesturing at an industry. Because an advocate that will not name anyone is decoration.
+- Yes: "Google gatekept key Android features" (https://www.openhomefoundation.org/blog/a-big-win-for-android-interoperability/)
+- No: "Certain vendors in the ecosystem"
+
+### Hospitable, not institutional
+Meets people as a host, not as an authority. Because the argument is that the home should be yours, and an institution that lectures you about your home has lost the thread before it starts.
+- Yes: a booth built as a living room, "inspired by omotenashi" (https://www.openhomefoundation.org/blog/making-room-for-privacy-choice-and-sustainability-at-ifa-2026/)
+- No: a stand with a demo counter and a lead-capture form
+
+### Structurally honest
+Explains its own mechanics — funding, board, partner obligations — in public, unprompted. Because "we are not for sale" is a claim, and the Stiftung, the board and the partner contracts are the evidence.
+- Yes: "The foundation has no financial obligation to its partners" (https://www.openhomefoundation.org/structure/)
+- No: "We are proudly independent."
+
+### TODO fourth attribute
+TODO interview. The three above are all about credibility; none captures the register of Community Day or the annual report, which are celebratory rather than argumentative.
 
 ## Pillar translations
-One per pillar in PROJECT.md. What Open Home Foundation concretely does about the belief.
+One per pillar in PROJECT.md. What the Open Home Foundation concretely does about the belief — not what its projects do.
 
 ### Privacy
-TODO
+Owns the projects that make local-first possible, and practises it on its own surfaces: analytics self-hosted on open source software with no personal data collected, survey data published anonymised and open. Argues for local processing as the default in public consultations rather than as a premium tier.
 
 ### Choice
-TODO
+Owns and funds the standards, drivers and libraries that let devices from different makers work together, and intervenes where a gatekeeper closes that door — as in the European Commission process that required Alphabet to open 11 Android features.
 
 ### Sustainability
-TODO
+Keeps hardware useful past its maker's interest in it, by owning the drivers and proxies that keep old devices addressable, and by holding the projects in a structure that cannot abandon them after an acquisition.
+
+TODO interview: sustainability is the least evidenced of the three in published work. Is it a real programme or an aspiration?
