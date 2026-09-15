@@ -50,7 +50,7 @@ TODO interview: the 50 and 100 word versions both lead with structure. An altern
 ## Taglines
 | Tagline | Use | Status |
 |---|---|---|
-| Fight for the Open Home: privacy, choice and sustainability | The thread (`core/story.md`); rarely quoted, always present | in use |
+| Fight for the Open Home: privacy, choice, and sustainability | The thread (`core/story.md`); rarely quoted, always present | in use |
 | Join the fight | Home page call to action (https://www.openhomefoundation.org/) | in use |
 | Live your life. Because nobody is watching. | Privacy pillar, about page | in use |
 | Design your smart home. The way you like it. | Choice pillar, about page | in use |

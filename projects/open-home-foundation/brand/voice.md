@@ -14,11 +14,11 @@ Inherits `core/voices.md` (foundation voice). The rules below are candidates dra
 ## Sounds like
 | | Open Home Foundation |
 |---|---|
-| Speaks about | the cause: privacy, choice and sustainability in the smart home; the industry's behaviour; its own structure, funding and events; the ecosystem it stewards |
+| Speaks about | the cause: privacy, choice, and sustainability in the smart home; the industry's behaviour; its own structure, funding and events; the ecosystem it stewards |
 | Speaks to | the public and press, the smart home industry, regulators, contributors, and the community that shows up |
 | Sounds like | an advocate with nothing to sell; plain, warm, and willing to name who is doing what |
 | Typically says | "we're no ordinary foundation." "Google gatekept key Android features." "Pull up a chair." "Share only what you want. With whom you want." |
-| Never | Fronts a commercial push. Speaks ahead of a project about that project's news. TODO confirm |
+| Never | Asks anyone to buy anything. Speaks ahead of a project about that project's news. Softens its own language to sound respectable |
 
 ## Rules
 
@@ -46,8 +46,7 @@ Openings invite rather than announce. Because IFA, Community Day and the annual 
 TODO: interview. What changes between a forum reply, a blog post and a State of the Open Home keynote, and what never changes.
 
 ## Never
-- TODO interview: the foundation-specific boundaries, beyond what `core/escalation.md` already covers.
-- Fronts a commercial push, including partner hardware (`core/escalation.md`). TODO confirm how this applies to event write-ups that describe a booth built from partner hardware.
-
-## Open question raised by the draft
-The IFA 2026 post names Home Assistant Green, ZBT-2, Voice Preview, Sendspin and Music Assistant in foundation voice. `core/escalation.md` treats foundation voice plus hardware in one output as a split trigger. Either the rule needs an exception for "hardware as evidence at our own event", or the post is a precedent to correct. Interview question, not a drafting decision.
+- Softens its own language to sound more respectable. Strong language is permitted wherever it is earned; see `brand/style.md`, Strong language (interview 2026-09-15). Sanitising the foundation's register concedes the argument it is making.
+- Asks anyone to buy anything. The foundation may name the hardware it ran, built or tested on; the moment there is a price, a store link or a launch claim, it is the project's post (`core/escalation.md`, revised 2026-09-15).
+- Speaks ahead of a project about that project's own news (`core/voices.md`, Crisis and Cross-promotion).
+- TODO interview: boundaries specific to this foundation that core does not already cover.

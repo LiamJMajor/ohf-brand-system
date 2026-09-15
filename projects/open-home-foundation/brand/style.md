@@ -9,11 +9,11 @@ draft: true
 
 # Open Home Foundation: style
 
-Mechanics. The things agents get wrong most often. Drafted 2026-09-15 by observing published copy rather than by asking. Two of the observations contradict this repository's own core files; both are flagged below and need a ruling, not a guess.
+Mechanics. The things agents get wrong most often. Drafted 2026-09-15 by observing published copy; the three rulings below were settled in interview on 2026-09-15.
 
 ## Spelling and grammar
-- Spelling convention: **US**, observed. The survey post uses "anonymized"; the IFA post uses "organizations" and "monetization". ⚠️ Conflict: `core/` is written in UK English ("criticises", "organisation", "recognisable"). Published copy and the brand system disagree. Ruling needed: does the ruling apply to published output only, or to the repository too?
-- Serial comma: **yes**, observed. "privacy, choice, and sustainability" on the home page, the about page and in the IFA post title. ⚠️ Conflict: `core/story.md:19` writes the thread as "privacy, choice and sustainability" without it. One of the two is wrong and the thread is the more visible of the two.
+- Spelling convention: **US English**, in published output *and* in this repository (interview 2026-09-15). Observed in published copy: "anonymized", "organizations", "monetization". The core files were written in UK English and are being corrected to match; until that sweep lands, trust this rule rather than the spelling of the file you are reading. See `decisions/2026-09-15-ohf-house-style.md`.
+- Serial comma: **yes**, always, including in the thread (interview 2026-09-15). "privacy, choice, and sustainability". `core/story.md:19` omitted it and was corrected in the same pull request; every public surface already used it.
 - Contractions: yes. "we're no ordinary foundation", "here's all you need to know", "don't require".
 
 ## Capitalisation
@@ -46,4 +46,12 @@ Terms the foundation uses in a specific sense, where a writer would otherwise re
 | TODO | TODO | TODO |
 
 ## Strong language
-The IFA 2026 post reproduces a cross-stitch reading "fuck VCs and private equity" in foundation voice on the foundation's own blog. Either profanity is permitted in specific circumstances — quoting an artefact, community register — or that post is a precedent to correct. This is the single highest-value ruling in this file, because an agent has no way to infer it and will either sanitise the foundation's actual voice or swear on its behalf. TODO interview.
+Permitted wherever it is earned, in the foundation's own sentences as well as in quoted artefacts (interview 2026-09-15). No channel carve-out, no asterisks, no "[expletive]". The foundation is anti-corporate by design and saying so plainly is the argument, not a lapse from it.
+
+Earned is the operative word and it is checkable: the profanity has to be carrying the point. "fuck VCs and private equity" on a cross-stitch at IFA names the specific thing the foundation's structure exists to prevent (https://www.openhomefoundation.org/blog/making-room-for-privacy-choice-and-sustainability-at-ifa-2026/). Profanity as intensifier — "this is a fucking great release" — is doing no work and is just noise in a different register.
+
+- Yes: "fuck VCs and private equity"
+- No: "f**k VCs and private equity" — sanitising it concedes the point
+- No: "this update is fucking great" — intensifier, not argument
+
+This rule is the foundation's, not the ecosystem's. Project voices inherit nothing from it; a project wanting the same latitude asks for it in its own `voice.md`.

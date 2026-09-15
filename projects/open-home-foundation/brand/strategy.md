@@ -12,7 +12,7 @@ draft: true
 The source every other brand file derives from. Drafted 2026-09-15 from public sources.
 
 ## Purpose
-The home is becoming a computer, and the question of who controls it is being settled now (`core/story.md`). The Open Home Foundation exists so that the answer is not the one the phone and the feed got. It owns the projects outright, in a legal structure that cannot be acquired, and it argues in public for privacy, choice and sustainability whoever is failing to deliver them.
+The home is becoming a computer, and the question of who controls it is being settled now (`core/story.md`). The Open Home Foundation exists so that the answer is not the one the phone and the feed got. It owns the projects outright, in a legal structure that cannot be acquired, and it argues in public for privacy, choice, and sustainability whoever is failing to deliver them.
 
 ## Positioning
 For everyone who lives in a smart home, the Open Home Foundation is the non-profit that owns and defends the open home's infrastructure, so that the software running your house answers to you rather than to a company's next quarter. It is the only party in the smart home with no product to sell you and no acquisition to plan for, which is what makes both its praise and its criticism worth reading.

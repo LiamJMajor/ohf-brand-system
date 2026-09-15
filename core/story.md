@@ -16,7 +16,7 @@ The stakes: the home is becoming a computer, and the question of who controls it
 ## The thread
 The single line through all OHF communication, from an annual report to a meme short or a forum comment:
 
-> Fight for the Open Home: privacy, choice and sustainability.
+> Fight for the Open Home: privacy, choice, and sustainability.
 
 ## How to use it
 Every output should be traceable to this. It is rarely quoted; it is always present. The foundation voice says it directly. Project voices translate it into what their product does, in `projects/<slug>/messaging.md`.
