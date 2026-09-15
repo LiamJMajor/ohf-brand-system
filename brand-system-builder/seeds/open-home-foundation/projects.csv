@@ -1,5 +1,0 @@
-slug,name,tier,voice,repo,website,pillars,surfaces
-open-home-foundation,Open Home Foundation,flagship,foundation,https://github.com/OpenHomeFoundation,https://www.openhomefoundation.org,"privacy,choice,sustainability","website,social-profiles,github"
-home-assistant,Home Assistant,flagship,project,https://github.com/home-assistant/core,https://www.home-assistant.io,"privacy,choice,sustainability","website,docs,social-profiles,app-stores,github"
-esphome,ESPHome,flagship,project,https://github.com/esphome/esphome,https://esphome.io,"privacy,choice,sustainability","website,docs,social-profiles,github"
-music-assistant,Music Assistant,flagship,project,https://github.com/music-assistant/server,https://www.music-assistant.io,"privacy,choice","website,docs,social-profiles,github"

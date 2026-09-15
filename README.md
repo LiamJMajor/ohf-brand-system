@@ -10,15 +10,16 @@ A guidelines document cannot fix this. It describes a brand but cannot participa
 
 This repository fixes it differently. Every project's brand is written down in the same set of files with the same structure, machine-checked for consistency, and loaded by agents as context. Someone asks their agent for a release post, and the agent already knows the project's voice rules, its approved boilerplate, its verified facts, and what good looks like. The marketing team provides governance and inputs once; the system applies them every time.
 
-## What is in this repository
+## Two repositories
 
-```
-ohf-brand-system/           The brand system itself. Everyone who contributes clones this.
-brand-system-builder/       The Claude Code plugin that builds and maintains it. Installed, rarely cloned.
-.claude-plugin/             Marketplace manifest so both can be installed as plugins.
-```
+| Repository | What it is | Who uses it |
+|---|---|---|
+| **ohf-brand-system** (this one) | The brand system: core, projects, truths, examples, skills. Readable by everyone who builds marketing for a project. | Everyone |
+| **[brand-system-builder](https://github.com/LiamJMajor/brand-system-builder)** | The Claude Code plugin that builds and maintains brand systems like this one: onboarding, interviews, standards, validation, audit. | The marketing team and project maintainers who change this repository |
 
-### The brand system (`ohf-brand-system/`)
+Reading the rules needs only this repository. Changing them needs the builder installed as a plugin.
+
+### What is in this repository
 
 | Folder | What it holds |
 |---|---|
@@ -32,9 +33,9 @@ brand-system-builder/       The Claude Code plugin that builds and maintains it.
 | `skills/` | Self-serve workflows for recurring jobs, one per beat. The project is an input; the skill loads that project's directory to become its voice. |
 | `decisions/` | Dated log of every rule added, fact changed and interview held, and why. |
 
-### The builder (`brand-system-builder/`)
+### The builder (separate repository)
 
-Ten skills and five scripts for maintaining the system. You install it as a plugin and then talk to Claude; the skills trigger from plain requests.
+Ten skills and five scripts for maintaining this system, in [brand-system-builder](https://github.com/LiamJMajor/brand-system-builder). You install it as a plugin and then talk to Claude; the skills trigger from plain requests.
 
 | Skill | Use it when |
 |---|---|
@@ -65,24 +66,31 @@ The scripts enforce the structure: `validate_project.py` checks a project agains
 
 ### I want to build something for a project
 
-You do not need a clone. Read `ohf-brand-system/INDEX.md`, find the project in `projects/REGISTRY.md`, and build only against projects with status `live`, in the areas listed under `ready:`. Decide the voice first using `core/voices.md`: is this about a product (project voice) or the cause (foundation voice)? Name the pillar it serves. Copy boilerplate from `brand/messaging.md` verbatim. Cite facts from `truths/`. Load every standard in `core/standards/` that matches your output type.
+You do not need a clone. Install this repository as a plugin so it is always the current `main`:
 
-Self-serve skills for recurring beats (release post, socials, release party promotion) are being codified now and will be installable as the `ohf-brand-system` plugin. Until then, agents follow the files directly. Every Home Assistant output currently requires a human sign-off before publishing.
+```
+/plugin marketplace add LiamJMajor/ohf-brand-system
+/plugin install ohf-brand-system@ohf-brand-system
+```
+
+Then read `INDEX.md`, find the project in `projects/REGISTRY.md`, and build only against projects with status `live`, in the areas listed under `ready:`. Decide the voice first using `core/voices.md`: is this about a product (project voice) or the cause (foundation voice)? Name the pillar it serves. Copy boilerplate from `brand/messaging.md` verbatim. Cite facts from `truths/`. Load every standard in `core/standards/` that matches your output type.
+
+Self-serve skills for recurring beats (release post, socials, release party promotion) will live in `skills/` and load with the same plugin. Until they exist, agents follow the files directly. Every Home Assistant output currently requires a human sign-off before publishing.
 
 ### I want to add or maintain a project
 
 Install the builder once, from a Claude Code terminal:
 
 ```
-/plugin marketplace add LiamJMajor/ohf-brand-system
-/plugin install brand-system-builder@ohf-brand-system
+/plugin marketplace add LiamJMajor/brand-system-builder
+/plugin install brand-system-builder@brand-system-builder
 ```
 
-Clone the repository and open Claude Code inside the brand system folder:
+Clone this repository and open Claude Code inside it:
 
 ```bash
 git clone git@github.com:LiamJMajor/ohf-brand-system.git
-cd ohf-brand-system/ohf-brand-system
+cd ohf-brand-system
 claude
 ```
 
