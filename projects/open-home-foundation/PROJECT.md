@@ -41,7 +41,7 @@ No area is `ready:`, so no skill may build against this project yet. Status stay
 ## What unblocks the next stage
 1. **Verify the proof points.** Every row in `truths/open-home-foundation/proof-points.md` has Verified empty, which `core/escalation.md` treats as not usable. Boilerplate and taglines are now confirmed wording, but every figure inside them is unusable until a person confirms it and dates it. This is the only thing standing between this project and a working `brand/messaging.md`.
 2. **Walk the five key messages.** The interview covered boilerplate, taglines and pillar translations and ran out before these. The funders and commercial partners message has no draft at all, because no published piece addresses that audience.
-3. **Qualify the gloss rule by audience.** `brand/voice.md`, "Assume they have never heard of it", is written absolutely. It is right for broadcast social and wrong for community channels, where glossing Zigbee to contributors reads as patronising. It was written from a broadcast rejection and has not been tested anywhere else.
+3. ~~**Qualify the gloss rule by audience.**~~ Settled 2026-09-15. The discriminator turned out not to be the channel but who the post asks something of: a call to action that only makes sense to somebody already in the community takes no gloss, even on the broadcast feeds. See `brand/voice.md`, "Qualified by audience", and `decisions/2026-09-15-who-the-post-is-for.md`.
 4. **Settle the social censoring question.** `brand/style.md` permits "f\*ck" on social on an explicitly unverified belief about platform ranking. The file records what would test it.
 5. Then `ready: [brand]`, owner sign-off in `decisions/`, and `live`. The flagship three-example minimum is met for social posts; no other output type is covered.
 
@@ -55,6 +55,12 @@ No area is `ready:`, so no skill may build against this project yet. Status stay
 - The `/about/` pillar taglines are canonical.
 - Sustainability is real ongoing work that is under-evidenced in public. The fix is proof points, not better adjectives.
 - "Over 250 projects" now lives in `truths/open-home-foundation/`; `truths/core/` cites it.
+- The gloss rule is qualified by who the post asks something of, not by channel. The foundation never lists several projects in one post to reach all their audiences at once; that is each project's post to write. The social character budget is 256, not 280 with the link excluded. See `decisions/2026-09-15-who-the-post-is-for.md` and `decisions/2026-09-15-social-length-budget.md`.
+
+## Known gaps this exposed
+Drafting one meetup invitation per voice on 2026-09-15 showed how little is buildable outside Home Assistant.
+- `examples/home-assistant/` holds release posts only. Home Assistant is `live` with `ready: [brand]`, but its social register has no evidence behind it, so a social post for it is a draft against `brand/voice.md` and nothing else.
+- `examples/esphome/` and `examples/music-assistant/` do not exist, and both projects' `brand/voice.md` files are unfilled TODO stubs. Anything written for them is built from `core/voices.md` and public sources, and reads generically because nothing project-specific exists yet. Both are `registered`; they need `onboard-project` and an interview before any output is more than a placeholder.
 
 ## Website follow-ups (not brand-system work)
 - The home page runs a superseded set of pillar taglines. The canonical set is in `brand/messaging.md`; the most-read surface disagrees with it.
