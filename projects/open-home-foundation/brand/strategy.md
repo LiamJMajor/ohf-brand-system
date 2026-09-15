@@ -56,4 +56,6 @@ Owns and funds the standards, drivers and libraries that let devices from differ
 ### Sustainability
 Keeps hardware useful past its maker's interest in it, by owning the drivers and proxies that keep old devices addressable, and by holding the projects in a structure that cannot abandon them after an acquisition.
 
-TODO interview: sustainability is the least evidenced of the three in published work. Is it a real programme or an aspiration?
+Real ongoing work, under-evidenced in public (interview 2026-09-15). Privacy has the Plausible migration and the open survey dataset; choice has the Android interoperability outcome; sustainability has one blog post about proxying old devices. The work happens continuously and quietly — a driver that keeps a discontinued device addressable is sustainability, and it ships in a release note, not an announcement.
+
+The gap is evidential, not strategic, and the fix belongs in `truths/`, not here. Writing a more confident translation would paper over a thin proof base rather than thicken it. Until there are proof points, sustainability claims stay at the level this paragraph supports.

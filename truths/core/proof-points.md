@@ -13,4 +13,13 @@ A proof point is specific, verifiable and traceable to a source. Skills copy App
 
 | Claim | Canonical figure | Source | Pillar | Approved phrasing | Verified |
 |---|---|---|---|---|---|
-| The open home has a permanent, credible steward; contributions and critical infrastructure have a home that cannot be acquired, abandoned or enshittified | 257 open source projects, standards, drivers and libraries owned and governed by the Open Home Foundation | https://www.openhomefoundation.org/projects | all | over 250 open source projects, standards, drivers, and libraries | Never |
+
+Empty by design, for now.
+
+## Moved
+The project-count claim ("over 250 open source projects, standards, drivers, and libraries") moved to `truths/open-home-foundation/proof-points.md` on 2026-09-15. It is a fact about the foundation, so it lives with the foundation and every other voice cites that path.
+
+It was carried here with a canonical figure of 257 and Verified marked "Never", meaning no skill could use it. The row it moved to is still unverified; moving it did not make it usable, it only stopped two copies drifting apart.
+
+Anything needing an ecosystem-wide fact that is genuinely nobody's project — a figure about the smart home industry, say — belongs in this file. Nothing qualifies yet.
+

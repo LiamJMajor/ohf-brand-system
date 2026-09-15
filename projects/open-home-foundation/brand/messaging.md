@@ -11,10 +11,10 @@ draft: true
 
 Derives from strategy.md. Agents copy Boilerplate verbatim; long-form builds from Key messages. Every fact traces to `truths/open-home-foundation/proof-points.md`.
 
-**Not usable yet.** Every figure below cites a proof-point row whose Verified column is empty, which `core/escalation.md` treats as not usable. Verifying those rows is the single thing that unblocks this file.
+**Not usable yet.** Boilerplate and taglines were confirmed in interview on 2026-09-15, but every figure in them cites a proof-point row whose Verified column is empty, which `core/escalation.md` treats as not usable. The words are settled; the facts inside them are not. Verifying `truths/open-home-foundation/proof-points.md` is the only thing standing between this file and use.
 
 ## Key messages
-One per audience in audiences.md. Drafted 2026-09-15; confirm in interview.
+One per audience in audiences.md. Drafted 2026-09-15 and not yet walked with the owner — the interview covered boilerplate, taglines and the pillar translations, and ran out before these.
 
 ### People who live in a smart home and have never been offered an alternative
 Your home should not have a landlord. The devices you already own can work together, locally, without an account, a subscription, or a company deciding one day that the feature you bought is now a monthly fee. That is not a hypothetical: it is over 250 open source projects that already exist, owned by a non-profit so nobody can take them away.
@@ -36,27 +36,34 @@ Your work cannot be acquired out from under you. The foundation owns the project
 TODO. No published piece addresses this audience; the interview writes this one from scratch.
 
 ## Boilerplate
+The short version does the credentials job; only the long version has room to make the argument first (interview 2026-09-15). They open differently on purpose — do not "harmonise" them.
+
 ### One line
 The non-profit that fights for privacy, choice, and sustainability in the smart home.
 
 ### 50 words
-The Open Home Foundation is a non-profit that fights for privacy, choice, and sustainability in the smart home. Founded in 2024, it owns and governs over 250 open source projects, standards, drivers, and libraries — including Home Assistant, ESPHome, and Music Assistant — in a Swiss foundation structure that cannot be sold.
+The Open Home Foundation is a tax-exempt non-profit foundation in Switzerland that fights for privacy, choice, and sustainability in the smart home. Founded in 2024, it owns and governs over 250 open source projects, standards, drivers, and libraries, including Home Assistant, ESPHome, and Music Assistant, in a structure that cannot be sold.
 
 ### 100 words
-The Open Home Foundation is a tax-exempt non-profit foundation, based in Switzerland, that fights for privacy, choice, and sustainability in the smart home. Founded in 2024 out of Home Assistant, it owns and governs over 250 open source projects, standards, drivers, and libraries, including Home Assistant, ESPHome, and Music Assistant. Its work is funded by commercial partner fees and donations rather than by selling data or attention, and it has no financial obligation to those partners. That independence is the point: the foundation has no product to sell you, which is what makes both its praise and its criticism worth reading.
-
-TODO interview: the 50 and 100 word versions both lead with structure. An alternative opening leads with the stake — "the home is becoming a computer, and who controls it is being settled now". Which is the house version?
+The home is becoming a computer, and the question of who controls it is being settled now. The Open Home Foundation exists so it gets settled in the open. A tax-exempt non-profit foundation based in Switzerland, founded in 2024 out of Home Assistant, it owns and governs over 250 open source projects, standards, drivers, and libraries, including Home Assistant, ESPHome, and Music Assistant, so they cannot be acquired or abandoned. Its work is funded by partner fees and donations rather than by selling data or attention, and it has no financial obligation to those partners. It has nothing to sell you.
 
 ## Taglines
+The `/about/` pillar set is canonical (interview 2026-09-15). Imperative plus reason; it is the more memorable construction and it is the one that survives out of context.
+
 | Tagline | Use | Status |
 |---|---|---|
 | Fight for the Open Home: privacy, choice, and sustainability | The thread (`core/story.md`); rarely quoted, always present | in use |
-| Join the fight | Home page call to action (https://www.openhomefoundation.org/) | in use |
-| Live your life. Because nobody is watching. | Privacy pillar, about page | in use |
-| Design your smart home. The way you like it. | Choice pillar, about page | in use |
-| Consume less. So you can save more. | Sustainability pillar, about page | in use |
+| Join the fight | Call to action (https://www.openhomefoundation.org/) | in use |
+| Live your life. Because nobody is watching. | Privacy pillar | canonical |
+| Design your smart home. The way you like it. | Choice pillar | canonical |
+| Consume less. So you can save more. | Sustainability pillar | canonical |
 
-TODO interview: the three pillar lines appear on `/about/` while `/` uses a different set ("Control your personal data...", "Mix and match devices...", "Repurpose your hardware..."). Two sets of pillar taglines are in the wild. Which is canonical?
+### Superseded
+The home page currently runs a second, more literal set: "Control your personal data. Share only what you want. With whom you want." / "Mix and match devices. Across manufacturers." / "Repurpose your hardware. And reduce your environmental impact."
+
+These are not a second register to pick from. They are drift, and the home page is the most-read surface carrying them. Agents copy the canonical set above; correcting the home page is a website job, tracked in `PROJECT.md` follow-ups.
+
+The literal phrasings are still useful as *explanation* — when a reader needs to know what a pillar concretely means, that wording says it. Use it as prose, never as the tagline.
 
 ## We don't say
 | Avoid | Say instead | Why |

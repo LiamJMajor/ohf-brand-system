@@ -37,5 +37,20 @@ Deliberately distinguished from *Hospitable, not institutional*, which the draft
 ## Codify queue
 Blog post → social post set first, then partner announcement. Both to `codify-workflow`. Named call-out and event write-up were considered and not prioritised, though the call-out is the highest-risk output the foundation makes and its obligations are already checkable in `core/escalation.md`.
 
-## What this interview did not settle
-Messaging. Boilerplate, key messages and taglines remain drafts, and no proof point is verified, so nothing in `brand/messaging.md` is usable by a skill. The interview protocol expects messaging to be walked top down; that round did not happen and is the next session's work.
+## Messaging round
+Run the same day, after the voice round.
+
+**Boilerplate opens differently by length, deliberately.** 50 words leads with structure, 100 with the stake. The short version is doing a credentials job — someone wants to know who this is and who funds it — and only the long version has room to make the argument before presenting the evidence. This is recorded in the file itself because it reads like an inconsistency and a future editor will otherwise "fix" it.
+
+**The `/about/` pillar taglines are canonical.** "Live your life. Because nobody is watching." over the home page's "Control your personal data. Share only what you want." Imperative plus reason survives out of context; the literal phrasing does not.
+
+This makes the home page — the most-read surface — carry superseded copy. That is now a website follow-up rather than an open question, and the literal wording is retained in `messaging.md` as prose for explaining what a pillar concretely means, which is the job it actually does well.
+
+**Sustainability is real work, thinly evidenced.** Privacy has the Plausible migration and the open survey dataset; choice has the Android interoperability outcome; sustainability has one post about proxying old devices. The conclusion was not to write a more confident translation. A driver that keeps a discontinued device addressable ships in a release note, not an announcement, so the pillar generates fewer citable moments than it generates work. The gap is evidential and belongs in `truths/`.
+
+**"Over 250 projects" moved to `truths/open-home-foundation/`.** It was in both that file and `truths/core/`, the core copy marked Verified: Never with a figure of 257 against a different source URL than the one the OHF row cites. Two copies of a number, already disagreeing. Core now cites the foundation's path.
+
+## What is still not settled
+The five key messages. The interview covered boilerplate, taglines and pillar translations and ran out before them; the funders and commercial partners message has no draft at all, because no published piece addresses that audience.
+
+And verification. Every proof point row is still unverified, which means the confirmed boilerplate above cites figures no skill may state. The words are settled and the facts inside them are not — an unusual failure mode, and the reason this project is `interviewed` rather than `validated`.
