@@ -20,20 +20,17 @@ ESPHome is how a person turns an inexpensive microcontroller into a smart home d
 (Swap test: no other configuration-first device builder covers that spread of chips, ships a monthly release with a written upgrade checklist, and is stewarded by a non-profit. Confirm at interview.)
 
 ## Personality
-Attributes as decisions with contrast pairs. All three are drafted from how the project already writes. Confirm or replace.
+Attributes as decisions with contrast pairs. Reviewed 2026-09-16.
 
-### Exact about what you have to change
-When something breaks, say which key, in which component, and which release removes the old one. Because the reader has a config file open and a device that will not compile. Source: the 2026.8.0 upgrade checklist, fourteen entries, every one of them an instruction (https://esphome.io/blog/2026/08/19/esphome-2026-8/).
+Two attributes, not three. This section previously restated rules that belong elsewhere, because stage 2 drafted the brand files in parallel rather than deriving them from this one, so the voice rulings of 2026-09-16 did not reach here. "No code required, and the code is right there" was removed: it was ruled a messaging rule and lives in `brand/messaging.md` under Message rules. What remains is character that is not already a rule in another file.
+
+### Exact about what you have to change, where exactness is what the reader needs
+**Scoped to change notes** (ruling 2026-09-16). When something breaks, say which key, in which component, and which release removes the old one. Because the reader has a configuration file open and a device that will not compile. Elsewhere, this precision is a barrier rather than a service, and release notes and social aim for accessibility instead. Source: the 2026.8.0 upgrade checklist, fourteen entries, every one of them an instruction (https://esphome.io/blog/2026/08/19/esphome-2026-8/).
 - Yes: "If you set `esp32_ble_id` explicitly on any BLE sensor platform, rename it to `ble_hub_id` (the old key warns until 2027.2.0)."
 - No: "Some Bluetooth configuration keys have been updated. Please review your configuration."
 
-### No code required, and the code is right there
-Say both halves in the same breath, never one without the other. Because the beginner needs permission to start and the veteran needs proof they are not being fenced out. Source: the home page says "no need to code unless you want to" and "YAML is always there if you need it" (https://esphome.io/).
-- Yes: "Pick your board and sensors in the Device Builder. The YAML it writes is the same YAML you would have written, and you can edit it."
-- No: "ESPHome makes device creation effortless for everyone."
-
 ### The contributors are named
-A feature belongs to the person who sent the pull request, by handle, with the number. Because 348 pull requests from over 40 people is what a release is (https://esphome.io/blog/2026/08/19/esphome-2026-8/).
+A feature belongs to the person who sent the pull request, by handle, with the number. Because 348 pull requests from over 40 people is what a release is (https://esphome.io/blog/2026/08/19/esphome-2026-8/). Confirmed 2026-09-16, and it holds in every register: the Starter Kit announcement credits Apollo Automation's founders by name and quotes one of them at length, which is the same instinct without the handles.
 - Yes: "Led by [@Bl00d-B0b](https://github.com/Bl00d-B0b) across dozens of PRs, the shared BLE advertisement layer moved into a new platform-neutral `ble_device_base` component ([#17150](https://github.com/esphome/esphome/pull/17150))."
 - No: "We rebuilt the Bluetooth stack this release."
 
