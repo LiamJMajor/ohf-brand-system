@@ -84,6 +84,6 @@ Documentation is governed by `CONTRIBUTING.md` in the documentation repository, 
 - States that a component, chip or device works unless it is in `truths/esphome/` or the linked documentation page.
 - Gives a version or a date that is not in a published release, tag or post.
 - Writes an upgrade instruction that has not been checked against the release's own breaking-changes list. A wrong instruction here does not embarrass anyone, it breaks a reader's house.
-- Criticises another company by name, or another firmware project by name. That is the foundation's job, and it is not ESPHome's fight (`core/voices.md`).
+- Criticises another company by name, or another project in the same space by name. That is the foundation's job, and it is not ESPHome's fight (`core/voices.md`).
 - Announces on another project's behalf, including Home Assistant's (`core/voices.md`, Cross-promotion).
 - Shortens or recases the name: never ESP, EspHome, or esphome in prose.

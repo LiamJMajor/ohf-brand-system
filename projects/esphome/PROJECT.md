@@ -18,7 +18,7 @@ last_reviewed: 2026-09-16
 
 # ESPHome
 
-ESPHome turns cheap microcontrollers into smart home devices you design yourself. You describe the hardware attached to a board in a YAML configuration, or pick it from a list in the ESPHome Device Builder, and ESPHome builds the firmware that runs on the chip. Everything you define shows up in Home Assistant over your own network, with no cloud account in between. The first install goes over a USB cable; every update after that can go over the air.
+ESPHome turns cheap microcontrollers into smart home devices you design yourself. You describe the hardware attached to a board in a YAML configuration, or pick it from a list in the ESPHome Device Builder, and ESPHome builds the software that runs on the chip. Everything you define shows up in Home Assistant over your own network, with no cloud account in between. The first install goes over a USB cable; every update after that can go over the air.
 
 (Drafted 2026-09-16 from the home page, the Get Started guide and the README. Confirm in the maintainer interview whether this stays the canonical paragraph.)
 
@@ -41,7 +41,7 @@ Every output requires human sign-off before publishing, regardless of a skill's 
 ## Open follow-ups
 - **No social channels found.** The site footer, the Starlight social config and the community section list only Discord, GitHub and the Home Assistant forum category. If ESPHome has accounts on any network, they are not linked from its own site. Confirm at interview: either they exist and the site should link them, or `social-profiles` comes off `surfaces:`.
 - **Em dashes.** Banned in every register by `decisions/2026-09-15-social-register-and-tells.md`. ESPHome's published copy uses them freely. Recorded as a conflict in `brand/style.md`; the interview settles whether the ban is organisation-wide or foundation-only.
-- **"firmware".** The OHF editorial style guide wants the word avoided (via `projects/home-assistant/brand/style.md`). It is the single most load-bearing noun in ESPHome's explanation of itself. Needs a ruling, not a preference.
+- **"firmware" is settled.** Ruled avoided everywhere on 2026-09-16; say "the software ESPHome builds" or "the code that runs on the chip". ESPHome's own home page and Get Started guide still use the word, so this is now a gap between the brand system and published copy rather than an open question. Correcting the site is marketing's, per the same round.
 - **Design files.** Not drafted. Checkable material exists if someone wants it: logo lockups at https://media.esphome.io/logo/ (`logo-text-on-light.svg`, `logo-text-on-dark.svg`), accent `#b3c7ff` and surface `#23272e` in `src/pages/index.astro`, and the OHF lockups the footer serves.
 - **Ownership date.** The README carries the Open Home Foundation badge, but no source read gave the date ESPHome joined. Home Assistant's truth file dates its own transfer to April 2024; do not assume ESPHome's is the same.
 - **Examples.** `examples/esphome/` is empty. Flagship live needs at least three. Harvest release posts and product announcements separately: they are two different registers.

@@ -34,7 +34,7 @@ Two guides sit above this file and have not been reconciled with it: the OHF Edi
 - Dates in prose: month then day, no ordinals: "Release 2026.8.1 - August 24" (observed). Old changelog titles use "18th August 2021"; that form is retired, do not copy it.
 - Dates in frontmatter and metadata: ISO, `2026-08-19` (observed).
 - Pull requests: linked by number, `[#17150](https://github.com/esphome/esphome/pull/17150)` (observed).
-- Units: TODO. No convention observed either way. Metric is the Home Assistant ruling (`projects/home-assistant/brand/style.md`); confirm it carries here, given an audience that buys boards in inches and millimetres both.
+- Units: metric, matching Home Assistant (ruling 2026-09-16). Numerals for all measurements, even under 10. A space between the number and the unit; hyphenate when the measurement modifies a noun. Abbreviations only with numerals, never followed by a period. Yes: "3 cm", "a 13.5-inch display", "21 °C". No: "3cm", "3 cm.", "21 degrees C". Board and enclosure dimensions are no exception, even where the part is sold in inches.
 
 ## Formatting
 - Links: descriptive text, never a bare URL, never "click here". Internal documentation links are relative and end in a trailing slash: `/components/wifi/` (docs).
@@ -61,7 +61,7 @@ Terms taken from the documentation and the home page as published. This table is
 | ESPHome Starter Kit | the hardware kit, named in full | the kit (on second mention only), starter pack |
 | over the air, OTA | wireless installation after the first USB install | flash over WiFi |
 | Home Assistant | always in full, always the destination it appears in | HA, hass |
-| firmware | TODO, see `brand/messaging.md`. The documentation's own sentence is "ESPHome reads that description and builds custom firmware for your device", and no alternative has been offered that survives the swap | |
+| firmware | the software ESPHome builds; the code that runs on the chip | firmware. Ruled avoided everywhere on 2026-09-16. ESPHome's own published copy uses it ("ESPHome reads that description and builds custom firmware for your device"), so this is a gap in existing copy, not a description of it |
 
 ## Machine checks
 Rules an agent or script can apply to a draft before a person sees it.

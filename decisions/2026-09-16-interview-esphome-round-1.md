@@ -78,3 +78,21 @@ The third pair is worth noting. Its "No" is real ESPHome text from the 2026.8.0 
 **Story dates: two recovered from the changelog archive.** The Otto Winter to Guillermo Ruffino handover is dated 13 September 2020 (v1.15.0). The rename to ESPHome is still undated but now bounded: v1.10.0 precedes v1.13.0, which is dated 30 May 2019.
 
 Three history TODOs remain and none can be closed from public sources. The founding year: the changelog archive reaches back to v1.7.0 with no date, and the LICENSE copyright of 2019 dates the ESPHome name rather than the project, which existed earlier as esphomelib and esphomeyaml. The date ESPHome joined the Open Home Foundation: openhomefoundation.org is blocked by the drafting environment's egress proxy, as is esphome.io, so neither could be checked. Both need either a person or an unblocked environment.
+
+## Round 2
+
+Four rulings, 2026-09-16.
+
+**"firmware": avoided everywhere.** Say "the software ESPHome builds" or "the code that runs on the chip". This is the heaviest ruling of the onboarding so far, because the word is load-bearing in ESPHome's own explanation of itself: the Get Started guide reads "ESPHome reads that description and builds custom firmware for your device", and the home page uses it too.
+
+The consequence is worth stating plainly rather than burying. This is not a rule the brand system derived from ESPHome's practice; it is a rule that overrides it. Until the site is updated, the brand system and the published copy disagree on the central sentence of the project's pitch. `brand/style.md` and `brand/messaging.md` both record it as a gap in existing copy rather than a description of it, so an agent reading either file knows it will see "firmware" in the wild and must not copy it. The site correction routes to marketing, per the earlier ruling on website ownership.
+
+Every use in the drafted files was rewritten, including the `PROJECT.md` summary paragraph and one in `brand/voice.md` where "another firmware project" became "another project in the same space".
+
+**Units: metric, matching Home Assistant.** No exception for board and enclosure dimensions, even where the part is sold in inches. One organisation-wide convention beats a per-project judgment call.
+
+**Contributor objection: needing the physical hardware.** You cannot write or test a component for a device you do not own, so contributing is conditional on having already bought the thing. Recorded in `brand/audiences.md`, and the contributor key message in `brand/messaging.md` was rewritten to answer it: the `host` platform runs components on a computer with no board attached, and devices.esphome.io shows what is already covered before you buy anything.
+
+Worth noting this is a materially different barrier from Home Assistant's, where the recorded objections are the size of the project and not knowing where to start. Borrowing Home Assistant's answer would have been wrong, which is why the draft left it as a TODO rather than guessing.
+
+**Fourth audience confirmed.** "People reclaiming off-the-shelf devices" stands as an audience in its own right, on the grounds that it carries the sustainability pillar and has its own documentation path. Its objection is still unwritten and is the only brand TODO that a person can close quickly.

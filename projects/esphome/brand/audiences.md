@@ -27,10 +27,10 @@ One section per audience. Key messages in messaging.md mirror these headings. Dr
 **Cares about:** how to add a component, the C++ and Python split, API changes between releases, review turnaround, CI.
 **Found on:** GitHub, https://developers.esphome.io, the Documentation channel in Discord, GitHub Discussions for feature requests. (https://github.com/esphome/esphome/blob/dev/CONTRIBUTING.md)
 **Comes to us from:** a chip or sensor they own that nothing supports yet.
-**Objections:** TODO. Nothing in the public sources names what stops a first contribution here. The interview must supply it; do not borrow Home Assistant's answer.
+**Objections:** needing the physical hardware. You cannot write or test a component for a device you do not own, so contributing is conditional on having already bought the thing (ruling 2026-09-16). Note this is a different barrier from Home Assistant's, where the objection is the size of the project and not knowing where to start.
 
 ## People reclaiming off-the-shelf devices
 **Cares about:** whether their plug, bulb or relay has a chip ESPHome supports, and whether they can get their own software onto it without the vendor's cloud.
 **Found on:** the LibreTiny component pages, the Tasmota migration guide, the device list, Discord. (https://esphome.io/guides/migrate_sonoff_tasmota/, https://esphome.io/components/libretiny/)
 **Comes to us from:** a vendor app they no longer want, or a product whose maker stopped shipping updates.
-**Objections:** TODO. Proposed as a fourth audience because the sustainability pillar lands here and the documentation carries a migration path for it, but no public source frames these people as a group. Confirm or fold into the second audience.
+**Objections:** TODO. Confirmed as an audience in its own right on 2026-09-16, on the grounds that it carries the sustainability pillar and has its own documentation path. Its objection is still unwritten and needs a person; no public source frames these people as a group, so there is nothing to draft it from.
