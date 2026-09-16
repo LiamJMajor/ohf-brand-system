@@ -60,3 +60,21 @@ Option 1 is the only one consistent with the layout, and it is a core change own
 - The 14 remaining TODOs in `brand/`, chiefly the undated history in `story.md` and the two audience objections.
 - The "firmware" ruling.
 - Units convention.
+
+## Round 1, second pass (same day)
+
+Three follow-up rulings, and what they changed.
+
+**Social handles: deferred.** `marketing/channels.md` and `standards/social-profiles.md` keep their recorded gap. The accounts are confirmed to exist; the handles are not being chased now. Both files say so rather than implying an absence.
+
+**Core promotion: not now; continue as before.** The accessibility rules for release notes and social were therefore written into `projects/esphome/brand/voice.md` as ESPHome's own, not promoted to `core/` and not copied from Home Assistant. The evidence for all three is ESPHome's own accessible register: the 2026 product announcements and the home page, which already write this way. Home Assistant remains the standard being matched, but no Home Assistant text was carried across, so `CLAUDE.md`'s rule against copying between projects holds.
+
+The structural question above is unresolved, not answered. If a third project needs the same rules, it will be rediscovered a third time from that project's evidence. That is the cost of deferring, and it is a deliberate choice rather than an oversight.
+
+The three new rules: open with what the reader wanted to do and what was in the way; gloss the technical term the first time it appears; say what the reader gets, not what was rebuilt. `brand/voice.md` now carries six rules in total, three of them scoped to accessible registers and one scoped to change notes.
+
+The third pair is worth noting. Its "No" is real ESPHome text from the 2026.8.0 release overview, not a constructed example. It is not bad writing; it is correct in a change note and wrong as the opening of a release note. The two-register ruling is that pair.
+
+**Story dates: two recovered from the changelog archive.** The Otto Winter to Guillermo Ruffino handover is dated 13 September 2020 (v1.15.0). The rename to ESPHome is still undated but now bounded: v1.10.0 precedes v1.13.0, which is dated 30 May 2019.
+
+Three history TODOs remain and none can be closed from public sources. The founding year: the changelog archive reaches back to v1.7.0 with no date, and the LICENSE copyright of 2019 dates the ESPHome name rather than the project, which existed earlier as esphomelib and esphomeyaml. The date ESPHome joined the Open Home Foundation: openhomefoundation.org is blocked by the drafting environment's egress proxy, as is esphome.io, so neither could be checked. Both need either a person or an unblocked environment.

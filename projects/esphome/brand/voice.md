@@ -43,19 +43,36 @@ No adjective that survives its noun being swapped out. The repository states thi
 - Yes: "Created documentation with examples and instructions."
 - No: "Created comprehensive documentation with configuration examples and setup instructions."
 
+### Open with what the reader wanted to do, and what was in the way
+In release notes and social, start from the reader's intention, not the change. Because the accessibility ruling of 2026-09-16 puts these registers in reach of people who have never built a device. Source: the Starter Kit announcement (https://esphome.io/blog/2026/08/12/the-esphome-starter-kit-is-here/).
+- Yes: "Ever wanted to build your own smart home device, but didn't know where to begin?"
+- No: "This release introduces a hardware bundle containing four pre-configured sensor modules."
+
+### Gloss the technical term the first time it appears
+Every chip, protocol, component and product gets a plain-language gloss on first mention. Because the reader who needs the release note least is the one who already knows what a microcontroller is. This is also an organisation-wide rule (`decisions/2026-09-15-social-register-and-tells.md`); ESPHome's home page already does it well. Source: https://esphome.io/.
+- Yes: "Every ESPHome device is built around a small, inexpensive chip called a microcontroller"
+- No: "Install the Device Builder and flash your ESP32-C6 over OTA."
+
+### Say what the reader gets, not what was rebuilt
+Lead with the outcome in the reader's home. The architecture goes underneath, or in the change notes. Source: the home page's third step (https://esphome.io/).
+- Yes: "Your new device automatically pops up in Home Assistant over your local network: no cloud accounts or external servers required."
+- No: "A new platform-neutral BLE layer moves all 39 BLE sensor platforms off their ESP32-only foundation."
+
+The No above is real ESPHome text, from the 2026.8.0 release overview. It is not wrong; it is correct in a change note and wrong as the opening of a release note. That is the 2026-09-16 ruling in one pair.
+
 ## Rule changes and gaps
 
 ### Moved out of this file
 "Both halves of the promise, in the same breath" (no code required, and the YAML is right there) was drafted here and ruled a **messaging rule, not a voice rule** (2026-09-16). It now lives in `brand/messaging.md` under Message rules.
 
-### Known gap: release notes and social
-The ruling of 2026-09-16 is that release notes and social posts aim for accessibility, and that rules similar to Home Assistant's apply. Those rules are not written here yet, because where they should live is an open architectural question (see `decisions/2026-09-16-interview-esphome-round-1.md`). Until they are, an agent writing an ESPHome release note or social post follows `core/` and the accessibility direction above, and flags the output as written against an incomplete rule set.
+### Release note and social rules added 2026-09-16
+The accessibility ruling of 2026-09-16 required rules for these registers. Rather than carry Home Assistant's across, the three rules above under Rules were written from ESPHome's own accessible register: the 2026 product announcements and the home page, which already write this way. Home Assistant remains the standard being matched; the evidence is ESPHome's.
 
 ## Modes
 | Mode | When | Length | Energy | Channels | Never changes |
 |---|---|---|---|---|---|
 | Low | patch releases, single-component news | as short as correct | neutral, factual | Discord, GitHub release notes | facts cited; voice rules |
-| Medium | the monthly release post and the changelog entry | long-form, sectioned: overview, upgrade checklist, feature sections, contributors, breaking changes, full changelog | **under revision.** Drafted as plain and technical from current practice; the 2026-09-16 ruling is that release notes aim for accessibility, closer to Home Assistant's register. The change-note sections keep the exact register; the surrounding post does not | blog, changelog, Discord, forum | facts cited; contributors credited; upgrade checklist before feature sections |
+| Medium | the monthly release post and the changelog entry | long-form, sectioned: overview, upgrade checklist, feature sections, contributors, breaking changes, full changelog | accessible: opens from the reader's intention, glosses every term, leads with outcomes. The change-note sections keep the exact config-key register; the surrounding post does not | blog, changelog, Discord, forum | facts cited; contributors credited; upgrade checklist before feature sections |
 | High | first-party product launches, Community Day, State of the Open Home | one idea carried across the piece, images, quotes from partners | warm, second person, direct address | blog, and wherever the foundation amplifies | facts cited; no banned words; the local-control claim stated as a property, not a value |
 
 Two corrections from 2026-09-16. ESPHome **does** have social accounts; they are simply not linked from its own site, so the social row is pending handles rather than absent. And the Medium row as drafted codified current practice, which the same ruling rejects as too complex for release notes. The High row is drafted from exactly three posts, all from 2026 (Device Builder, Desktop App, Starter Kit), two of which were written by people outside the engineering team.

@@ -16,14 +16,14 @@ ESPHome was originally founded by Otto Winter (https://esphome.io/guides/support
 
 The LICENSE carries a 2019 copyright and splits the project along the same seam: the C++ and runtime code is GPLv3, the Python and everything else is MIT (https://github.com/esphome/esphome/blob/dev/LICENSE).
 
-TODO: founding year and the handover from Otto Winter to the current maintainers. The v1.15.0 changelog opens "Stop! this is not Otto Winter, but Guillermo Ruffino" (https://esphome.io/changelog/v1.15.0/), which dates the change to somewhere around that release but does not date the release. Interview, or a dated tag, settles it.
+The handover is dated: the v1.15.0 changelog of 13 September 2020 opens "Stop! this is not Otto Winter, but Guillermo Ruffino" (https://esphome.io/changelog/v1.15.0/). TODO: the founding year. The changelog archive reaches back to v1.7.0, which carries no date, and the earliest dated entry is v1.13.0 on 30 May 2019. The LICENSE copyright of 2019 dates the ESPHome name, not the project, which existed earlier as esphomelib and esphomeyaml.
 
 ## Milestones
 | Date | Milestone | Source |
 |---|---|---|
 | TODO | First public release, as esphomelib and esphomeyaml | TODO: no dated source found |
-| TODO (v1.10.0) | Renamed to ESPHome; YAML becomes the primary way to use it | https://esphome.io/changelog/v1.10.0/ |
-| TODO (v1.15.0) | Maintenance passes from Otto Winter to Guillermo Ruffino | https://esphome.io/changelog/v1.15.0/ |
+| Before 30 May 2019 (v1.10.0) | Renamed to ESPHome; YAML becomes the primary way to use it | https://esphome.io/changelog/v1.10.0/ (undated; bounded by v1.13.0, dated 30 May 2019) |
+| 13 September 2020 (v1.15.0) | Maintenance passes from Otto Winter to Guillermo Ruffino | https://esphome.io/changelog/v1.15.0/ |
 | 18 August 2021 | Calendar versioning begins with 2021.8.0, on a monthly cycle | https://esphome.io/changelog/2021.8.0/ |
 | TODO | ESPHome becomes an Open Home Foundation project | TODO: badge present in the README, no date found |
 | April 2026 | ESPHome Starter Kit shown at State of the Open Home 2026 | https://esphome.io/blog/2026/08/12/the-esphome-starter-kit-is-here/ |
