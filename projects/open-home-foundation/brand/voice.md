@@ -49,6 +49,15 @@ The blog already does this and social has been skipping it. The gloss is usually
 - Yes: "IFA Berlin welcomes everyday visitors, distinguishing it from industry-only events like CES Las Vegas." (https://www.openhomefoundation.org/blog/making-room-for-privacy-choice-and-sustainability-at-ifa-2026/)
 - No: "Our first booth at IFA Berlin was no ordinary trade stand."
 
+#### Qualified by audience (correction 2026-09-15)
+The rule above was written from a broadcast rejection and applied absolutely. It is wrong when the post speaks to people who are already here, where a gloss reads as being talked down to.
+
+The test is not which network the post goes out on. It is who the post asks something of: **if the call to action only makes sense to someone already in the community, do not gloss.** A meetup invitation, a call for contributors, a beta request and a reply in a thread all fail that test and take no gloss, even on the broadcast feeds. A post aimed at press, industry, regulators or the public still glosses everything, because reaching people without the vocabulary is the entire point of the original rule.
+
+Evidence: a Lisbon meetup post drafted with "Home Assistant, the smart home platform that runs locally in your own house" was cut to "Home Assistant" by the owner, on the grounds that the people who will travel to meet the team already know who we are and what we stand for.
+- Yes: "Come celebrate the open home with the teams behind Home Assistant, ESPHome, and Music Assistant, and everyone who builds it." (Lisbon meetup post, 2026-09-15)
+- No: "Come meet the people who build Home Assistant, the smart home platform that runs locally in your own house, and the rest of the open home."
+
 ### The technology is the argument, not the backdrop
 When the foundation writes about something it built, the smart home is the subject. The charm around it, the sofas, the coffee, the omotenashi, is how the argument is delivered and never a substitute for it. Because the claim being made is that a private, local, cross-brand smart home *works*, and a post that lists the cushions and omits the devices has quietly conceded that the tech was not the interesting part (correction 2026-09-15).
 
@@ -65,7 +74,7 @@ Mode is set by set-piece versus steady state, not by audience or stakes (intervi
 |---|---|---|---|---|---|
 | Low | Steady state: forum and social replies, a comment on someone else's thread, day-to-day presence | as short as the answer needs | conversational, first person, unhurried | community (Discord, Reddit, Discourse), social replies | the rules; facts cited; never speaks ahead of a project |
 | Medium | A blog post: an argument, a write-up, a piece of news the foundation owns | long-form, sectioned, subheads in sentence case | plain and warm; makes one argument and evidences it | blog, newsletter | the rules; facts cited; named criticism carries its obligations |
-| Medium, social | The social post carrying a blog post or an announcement | under 280 characters of body, link excluded (the X and Bluesky cap); three short paragraphs | lighter and more playful than the blog it points at; emoji in the opening line and a 👇 at the link | social, in one copy across networks | the rules; every reference glossed; link alone on the last line |
+| Medium, social | The social post carrying a blog post or an announcement | 256 weighted characters of body including line breaks, which is the real X cap once the link and the emoji are counted; see `brand/style.md`, Social length budget (correction 2026-09-15); three short paragraphs | lighter and more playful than the blog it points at; emoji in the opening line and a 👇 at the link | social, in one copy across networks | the rules; references glossed when the post speaks past the community; link alone on the last line |
 | High | The set pieces: Community Day, State of the Open Home, the Annual Report, IFA and equivalent events | one idea, many formats, sustained over days | celebratory, and playful with the format itself; the argument gets made by what we build as much as by what we write | all, including press and live | the rules; facts cited; a set piece is still never a sales push |
 
 The register does not soften as the stakes rise. A named call-out in Low reads the same as one in High; what changes is how much is built around it.
@@ -74,4 +83,9 @@ The register does not soften as the stakes rise. A named call-out in Low reads t
 - Softens its own language to sound more respectable. Strong language is permitted wherever it is earned; see `brand/style.md`, Strong language (interview 2026-09-15). Sanitising the foundation's register concedes the argument it is making.
 - Asks anyone to buy anything. The foundation may name the hardware it ran, built or tested on; the moment there is a price, a store link or a launch claim, it is the project's post (`core/escalation.md`, revised 2026-09-15).
 - Speaks ahead of a project about that project's own news (`core/voices.md`, Crisis and Cross-promotion).
+- **Lists several projects in one foundation post as a way of reaching all their audiences at once.** Naming Home Assistant, ESPHome and Music Assistant together reads as generous, which is exactly why it gets written; it is the foundation announcing on three projects' behalf, and `core/voices.md`, Cross-promotion, says each project posts in its own voice to its own users. One foundation post is not a shortcut around three project posts (correction 2026-09-15).
+
+  The trap is specific to community-facing posts, where the instinct is to gather everyone in. A Lisbon meetup invitation was drafted as "come meet the teams behind Home Assistant, ESPHome, and Music Assistant" and was caught before it shipped. The fix is four posts, not one: the foundation invites people to the foundation's event in its own voice, and each project invites its own community in its own. The foundation post names no projects at all.
+
+  Distinguish from legitimate mentions: the foundation may say what it built, ran or tested on, and a project may attribute itself to the foundation (`brand/naming.md`, Attribution). The test is whether the post is doing a job the project should be doing for its own audience.
 - TODO interview: boundaries specific to this foundation that core does not already cover.

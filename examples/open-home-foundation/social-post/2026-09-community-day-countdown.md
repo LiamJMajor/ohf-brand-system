@@ -43,7 +43,12 @@ Flagged here because this file was briefly used as evidence for the opposite rul
 - Name the audience early when the post serves more than one.
 - List what is behind the link rather than characterising it.
 - 👇 immediately before the link; link alone on the final line.
-- Same copy across networks unless a platform limit forces a trim. X and Bluesky cap the body at 280 characters, link excluded.
+- Same copy across networks unless a platform limit forces a trim.
+
+## Outlier: the character count
+This file used to say "X and Bluesky cap the body at 280 characters, link excluded". That is wrong and it truncated a later post in public rehearsal. X counts any URL as 23 characters however short, and each emoji as 2. The real budget is **256 weighted characters of body including line breaks**; see `projects/open-home-foundation/brand/style.md`, Social length budget (correction 2026-09-15).
+
+This post measures 279 to 281 depending on how X counts the skin-tone modifier in 👇🏼, so it sits on the cap with no headroom at all. That is why the error survived: the example that taught the rule happened to fit, or nearly.
 
 ## What not to copy
 - Nothing here is single-use. This is the closest thing to a template the foundation has for blog promotion.

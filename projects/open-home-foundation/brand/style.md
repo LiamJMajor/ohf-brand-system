@@ -43,6 +43,28 @@ Mechanics. The things agents get wrong most often. Drafted 2026-09-15 by observi
 - Emoji: **yes on social, and expected** (examples 2026-09-15). Every approved social post carries at least one. The pattern is one in the opening line carrying the mood (‼️ 🥳 🎉 👀) and a 👇 immediately before the link. Blog prose is a different surface and carries none. An emoji-free foundation social post reads as somebody else's copy.
 - Social posts end with the link alone on its own line, preceded by a 👇 pointer.
 
+## Social length budget
+**256 weighted characters of body, including line breaks.** Not 280, and the link is not excluded (correction 2026-09-15, after a post was truncated on X).
+
+The old rule said "under 280 characters of body, link excluded (the X and Bluesky cap)". Both halves were wrong, and they were wrong in the same direction, so a post that measured as safe truncated in public.
+
+| What X actually counts | Cost |
+|---|---|
+| Any URL, however short | 23, always. `https://luma.com/t13dc6er` and a 200-character URL both cost 23 |
+| Each emoji | 2, not 1. A post with an opening emoji and a 👇 spends 4 |
+| The blank line before the link | 1 |
+| Everything else here | 1 |
+
+280 minus 23 for the link minus 1 for the line break leaves **256** for the body. Bluesky's limit is 300 and it counts the URL at its real length, so a body that clears X clears Bluesky; X is the binding constraint and the only one worth measuring against.
+
+Count before posting, and count the emoji as 2:
+
+```bash
+python3 -c 'import sys;b=sys.stdin.read();print(sum(1 if (0<=ord(c)<=4351 or 8192<=ord(c)<=8205 or 8208<=ord(c)<=8223 or 8242<=ord(c)<=8247) else 2 for c in b)+24,"/280")'
+```
+
+The margin is genuinely tight, and that is the point: `examples/open-home-foundation/social-post/2026-09-community-day-countdown.md` sits within a character or two of the cap, which is why nobody noticed the rule was wrong until a slightly longer post lost its last line. When the body will not fit, cut a fact before cutting the opening: the Lisbon post dropped "About 20 spaces left" rather than the community from its first line, because the event page carries the remaining count anyway.
+
 ## Glossary
 Terms the foundation uses in a specific sense, where a writer would otherwise reach for a loose synonym. Drafted from observed usage; the interview confirms and extends.
 
