@@ -5,7 +5,7 @@ tier: flagship
 voice: project
 status: drafted
 owner: @liam
-maintainers: [@jesserockz]
+maintainers: [@jesserockz]  # confirmed a maintainer 2026-09-16, not the only one; interview may be run with anyone holding the knowledge
 repo: https://github.com/esphome/esphome
 website: https://esphome.io
 pillars: [privacy, choice, sustainability]
@@ -36,7 +36,7 @@ Brand files and `marketing/channels.md` drafted 2026-09-16 from public sources, 
 Sources used, all read on 2026-09-16: the README and LICENSE at `esphome/esphome@dev`; the documentation site source at `esphome/esphome-docs@current`, commit `1f91cc2`, which is what publishes to https://esphome.io. The live site was unreachable from the drafting environment, so every citation below names the published URL and the file in the source repository that produces it.
 
 ## Review policy
-TODO: Home Assistant requires human sign-off on every output (`projects/home-assistant/PROJECT.md`). No equivalent policy exists for ESPHome. Settle it in the interview, because release posts here carry breaking-change instructions that a reader will paste into a config.
+Every output requires human sign-off before publishing, regardless of a skill's reliability tier. Ruled on 2026-09-16 as applying to **all projects and the foundation**, not just Home Assistant, so this is an inherited rule rather than an ESPHome one; it belongs in `core/escalation.md` and travels in its own pull request. Skills producing for ESPHome deliver drafts marked "needs review" and name the reviewer.
 
 ## Open follow-ups
 - **No social channels found.** The site footer, the Starlight social config and the community section list only Discord, GitHub and the Home Assistant forum category. If ESPHome has accounts on any network, they are not linked from its own site. Confirm at interview: either they exist and the site should link them, or `social-profiles` comes off `surfaces:`.

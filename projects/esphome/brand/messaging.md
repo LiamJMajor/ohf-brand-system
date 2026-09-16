@@ -30,6 +30,14 @@ A component is Python for the configuration and C++ for the runtime, in one dire
 The Beken, Realtek and LN882 chips inside cheap plugs and bulbs are supported chips, not exotic ones, and the documentation carries a migration path from Tasmota. The device keeps working after the vendor stops caring, on your network, answering to you.
 (Answers the objection: TODO. This audience is itself a proposal.)
 
+## Message rules
+Ruled a messaging rule rather than a voice rule on 2026-09-16, and moved here from `brand/voice.md`.
+
+### Both halves of the promise, in the same breath
+No code required, and the YAML is right there. Never one without the other. Because the beginner needs permission to start and the veteran needs proof they are not being fenced out. Source: the home page (https://esphome.io/).
+- Yes: "Its intuitive Device Builder replaces code with simple visual choices [...] And for experienced users who prefer writing code manually, YAML is always there if you need it."
+- No: "ESPHome now handles everything for you, so you never need to see a configuration file again."
+
 ## Boilerplate
 ### One line
 ESPHome turns ESP32, ESP8266, and RP2040 microcontrollers into fully-featured smart home devices.

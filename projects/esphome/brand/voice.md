@@ -24,34 +24,41 @@ Read this alongside `brand/style.md`. ESPHome writes in two registers that the s
 
 ## Rules
 
-### Name the key, the component and the release
-When something changes, say exactly what the reader must edit and when the old spelling stops working. Because they have a configuration file open and a device that will not compile. Source: the 2026.8.0 upgrade checklist (https://esphome.io/blog/2026/08/19/esphome-2026-8/).
+Confirmed by @liam on 2026-09-16 (interview round 1). Two rules stand as drafted, one was rescoped, one was moved out of this file. The release-note and social rules are a known gap; see below.
+
+### In change notes, name the key, the component and the release
+**Scoped to change notes only** (ruling, 2026-09-16). When something changes, say exactly what the reader must edit and when the old spelling stops working. Because they have a configuration file open and a device that will not compile. Source: the 2026.8.0 upgrade checklist (https://esphome.io/blog/2026/08/19/esphome-2026-8/).
 - Yes: "If you use `command_throttle` on `modbus_controller`, move the setting to `turnaround_time` on the `modbus` component; `allow_duplicate_commands` no longer has any effect."
 - No: "Modbus configuration has been streamlined. Review your setup after updating."
 
+This register is **too complex for release notes and social posts**, which are aiming for accessibility (ruling, 2026-09-16). Do not carry it across. What was drafted here described ESPHome's current release-post practice; the ruling is that release notes should read more like Home Assistant's.
+
 ### Credit by handle and pull request number
-A feature belongs to whoever sent it, named, linked, with the number. Because that is what a release is made of, and the count is published: 348 pull requests from over 40 contributors in 2026.8.0 (https://esphome.io/blog/2026/08/19/esphome-2026-8/).
+A feature belongs to whoever sent it, named, linked, with the number. Because that is what a release is made of, and the count is published: 348 pull requests from over 40 contributors in 2026.8.0 (https://esphome.io/blog/2026/08/19/esphome-2026-8/). Confirmed unchanged 2026-09-16.
 - Yes: "[@exciton](https://github.com/exciton) - 25 PRs including the `modbus_controller` refactor and the new `modbus_client` component with typed actions"
 - No: "The team delivered a major Modbus overhaul this release."
 
-### Both halves of the promise, in the same breath
-No code required, and the YAML is right there. Never one without the other. Because the beginner needs permission to start and the veteran needs proof they are not being fenced out. Source: the home page (https://esphome.io/).
-- Yes: "Its intuitive Device Builder replaces code with simple visual choices [...] And for experienced users who prefer writing code manually, YAML is always there if you need it."
-- No: "ESPHome now handles everything for you, so you never need to see a configuration file again."
-
 ### Say the plain thing, at the plain length
-No adjective that survives its noun being swapped out. The repository states this as a rule for its own contributors: "Avoid the use of flowery language and weasel-words that add no useful content. Keep comments concise and technically accurate - you are not writing a press release." (https://github.com/esphome/esphome-docs/blob/current/AGENTS.md)
+No adjective that survives its noun being swapped out. The repository states this as a rule for its own contributors: "Avoid the use of flowery language and weasel-words that add no useful content. Keep comments concise and technically accurate - you are not writing a press release." (https://github.com/esphome/esphome-docs/blob/current/AGENTS.md) Confirmed unchanged 2026-09-16. Both halves of this pair are the project's own; neither was constructed.
 - Yes: "Created documentation with examples and instructions."
 - No: "Created comprehensive documentation with configuration examples and setup instructions."
+
+## Rule changes and gaps
+
+### Moved out of this file
+"Both halves of the promise, in the same breath" (no code required, and the YAML is right there) was drafted here and ruled a **messaging rule, not a voice rule** (2026-09-16). It now lives in `brand/messaging.md` under Message rules.
+
+### Known gap: release notes and social
+The ruling of 2026-09-16 is that release notes and social posts aim for accessibility, and that rules similar to Home Assistant's apply. Those rules are not written here yet, because where they should live is an open architectural question (see `decisions/2026-09-16-interview-esphome-round-1.md`). Until they are, an agent writing an ESPHome release note or social post follows `core/` and the accessibility direction above, and flags the output as written against an incomplete rule set.
 
 ## Modes
 | Mode | When | Length | Energy | Channels | Never changes |
 |---|---|---|---|---|---|
 | Low | patch releases, single-component news | as short as correct | neutral, factual | Discord, GitHub release notes | facts cited; voice rules |
-| Medium | the monthly release post and the changelog entry | long-form, sectioned: overview, upgrade checklist, feature sections, contributors, breaking changes, full changelog | plain and technical; no celebration beyond the contributor thanks | blog, changelog, Discord, forum | facts cited; contributors credited; upgrade checklist before feature sections |
+| Medium | the monthly release post and the changelog entry | long-form, sectioned: overview, upgrade checklist, feature sections, contributors, breaking changes, full changelog | **under revision.** Drafted as plain and technical from current practice; the 2026-09-16 ruling is that release notes aim for accessibility, closer to Home Assistant's register. The change-note sections keep the exact register; the surrounding post does not | blog, changelog, Discord, forum | facts cited; contributors credited; upgrade checklist before feature sections |
 | High | first-party product launches, Community Day, State of the Open Home | one idea carried across the piece, images, quotes from partners | warm, second person, direct address | blog, and wherever the foundation amplifies | facts cited; no banned words; the local-control claim stated as a property, not a value |
 
-Two things this table records that the interview should either confirm or correct. ESPHome has no social row, because no ESPHome social account was found on its own site. And the High row is drafted from exactly three posts, all from 2026 (Device Builder, Desktop App, Starter Kit), two of which were written by people outside the engineering team.
+Two corrections from 2026-09-16. ESPHome **does** have social accounts; they are simply not linked from its own site, so the social row is pending handles rather than absent. And the Medium row as drafted codified current practice, which the same ruling rejects as too complex for release notes. The High row is drafted from exactly three posts, all from 2026 (Device Builder, Desktop App, Starter Kit), two of which were written by people outside the engineering team.
 
 ## When this bends
 Documentation is governed by `CONTRIBUTING.md` in the documentation repository, which is stricter and quieter than anything here: Title Case section headings, 120 character lines, present tense, active voice, minimal examples. Where documentation guidance and this file disagree inside a documentation page, the documentation guidance wins. Everywhere else, this file wins.

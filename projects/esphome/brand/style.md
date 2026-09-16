@@ -19,7 +19,7 @@ Two guides sit above this file and have not been reconciled with it: the OHF Edi
 - Contractions: yes, in every register, including release posts. "It's", "don't", "you've" appear throughout (observed, 30 in the 2026 posts).
 - Present tense, active voice (docs).
 - Line length: wrap source at 120 characters (docs). Applies to anything committed to the documentation or blog repositories.
-- Em dashes: **do not use them.** Banned outright, every register, every surface, by `decisions/2026-09-15-social-register-and-tells.md`. Recorded loudly because an agent reaches for one about every second paragraph. **Unresolved conflict:** ESPHome's published copy contains 52 em dashes and 20 en dashes across the 2026 posts, so the ban and the project's practice are currently opposed. The ban was made for the foundation voice from foundation examples; nobody has asked whether it binds project voices. Until it is settled, write without them, and do not edit existing ESPHome copy to match.
+- Em dashes: **do not use them.** Banned outright, every register, every surface, across every project and the foundation. Confirmed org-wide on 2026-09-16, which closes the question `decisions/2026-09-15-social-register-and-tells.md` left open. Recorded loudly because an agent reaches for one about every second paragraph. **Known gap in existing copy:** ESPHome's published 2026 posts contain 52 em dashes and 20 en dashes. New copy complies; correcting the archive is a separate decision nobody has funded.
 
 ## Capitalisation
 - Headings in documentation and release posts: Title Case (docs, and observed: "Release Overview", "Upgrade Checklist", "New Components", "Thank You, Contributors").
