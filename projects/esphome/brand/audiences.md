@@ -33,4 +33,10 @@ One section per audience. Key messages in messaging.md mirror these headings. Dr
 **Cares about:** whether their plug, bulb or relay has a chip ESPHome supports, and whether they can get their own software onto it without the vendor's cloud.
 **Found on:** the LibreTiny component pages, the Tasmota migration guide, the device list, Discord. (https://esphome.io/guides/migrate_sonoff_tasmota/, https://esphome.io/components/libretiny/)
 **Comes to us from:** a vendor app they no longer want, or a product whose maker stopped shipping updates.
-**Objections:** TODO. Confirmed as an audience in its own right on 2026-09-16, on the grounds that it carries the sustainability pillar and has its own documentation path. Its objection is still unwritten and needs a person; no public source frames these people as a group, so there is nothing to draft it from.
+**Objections:** four, all confirmed 2026-09-16, and they compound rather than competing.
+1. *Not knowing if the chip is supported.* The device is a sealed box with no model number on the outside. Until it is opened, or someone else has posted a teardown, there is no way to tell whether it holds a BK72xx, an ESP8266, or something ESPHome has never seen.
+2. *Fear of bricking it.* It works right now. Unlike a bare development board, this thing cost real money and already does its job, so the downside of a failed install is losing something that worked.
+3. *Having to physically open it.* Many devices need opening, and often soldering, to take a first install. That is precisely the barrier the Starter Kit was built to remove for new builders, and it is still fully present here.
+4. *Losing vendor app features.* The vendor app does things out of the box that now have to be rebuilt by hand in Home Assistant.
+
+Taken together these describe someone who has more to lose than a first-time builder and less certainty about what they are holding. Messaging that treats them as beginners will miss; messaging that treats them as experts will skip the one question they actually have, which is whether their specific device is on the list.

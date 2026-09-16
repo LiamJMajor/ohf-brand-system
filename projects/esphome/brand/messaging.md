@@ -27,8 +27,8 @@ A component is Python for the configuration and C++ for the runtime, in one dire
 (Answers the objection: you cannot write or test a component for a device you do not own.)
 
 ### People reclaiming off-the-shelf devices
-The Beken, Realtek and LN882 chips inside cheap plugs and bulbs are supported chips, not exotic ones, and the documentation carries a migration path from Tasmota. The device keeps working after the vendor stops caring, on your network, answering to you.
-(Answers the objection: TODO, see audiences.md.)
+Check the device list at devices.esphome.io before you do anything else: if someone has already put ESPHome on your exact plug or bulb, the hard part is done and the teardown is written down. The Beken, Realtek and LN882 chips inside cheap retail devices are supported chips, not exotic ones, and the documentation carries a migration path from Tasmota. Getting in usually means opening the case once; after that every update is wireless. What you lose is the vendor's app, and what you get back is a device that keeps working after the vendor stops caring, on your network, answering to you.
+(Answers all four objections in audiences.md: is my chip supported, will I brick it, do I have to open it, what do I lose. The device list answers the first and is deliberately the opening move.)
 
 ## Message rules
 Ruled a messaging rule rather than a voice rule on 2026-09-16, and moved here from `brand/voice.md`.

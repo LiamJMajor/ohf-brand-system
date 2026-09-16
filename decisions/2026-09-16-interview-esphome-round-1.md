@@ -96,3 +96,11 @@ Every use in the drafted files was rewritten, including the `PROJECT.md` summary
 Worth noting this is a materially different barrier from Home Assistant's, where the recorded objections are the size of the project and not knowing where to start. Borrowing Home Assistant's answer would have been wrong, which is why the draft left it as a TODO rather than guessing.
 
 **Fourth audience confirmed.** "People reclaiming off-the-shelf devices" stands as an audience in its own right, on the grounds that it carries the sustainability pillar and has its own documentation path. Its objection is still unwritten and is the only brand TODO that a person can close quickly.
+
+## Round 3
+
+**Fourth audience objections: all four confirmed.** "People reclaiming off-the-shelf devices" carries four objections rather than one, and they compound: not knowing whether the chip inside is supported, fear of bricking a device that currently works, having to physically open the case, and losing the vendor app's features.
+
+Taken together they describe someone with more to lose than a first-time builder and less certainty about what they are holding. That shaped the key message in `brand/messaging.md`, which now opens on the device list at devices.esphome.io rather than on the sustainability argument, because "is my specific device on the list" is the question that has to be answered before any of the others matter.
+
+**History gaps: left unfilled, with the project proceeding.** The founding year, the date ESPHome joined the Open Home Foundation, the date of the v1.10.0 rename, and how the project describes its own community are not established. Both esphome.io and openhomefoundation.org are blocked by the drafting environment's egress proxy, so none could be checked from here.
