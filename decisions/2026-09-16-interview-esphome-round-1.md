@@ -150,3 +150,21 @@ The ruling is that **the rule stands and the post deviates**. `brand/style.md` i
 Harvesting a post that breaks a rule is deliberate. It carries the best available writing in ESPHome's accessible register, and an example that teaches register while naming its own defects is more useful than waiting for a clean one. The annotation has to do that work, or the example teaches the defect.
 
 Two examples still needed before `live`: the minimum for flagship is three.
+
+## Round 7: positioning
+
+**ESPHome's position is building smart home devices.** Compatibility with Home Assistant is a benefit of the finished device and never part of the position. The goal is to work with every smart home system.
+
+The drafted Positioning made Home Assistant definitional: "every device it builds appears in Home Assistant over the local network on its own". That is now rewritten. The position opens on building the device nobody sells you, and closes on the device speaking open standards so it works with the system the reader already has.
+
+**ESPHome's own copy already said this, twice, and the drafting missed it.** The home page aside: the chip "can then 'talk' directly to Home Assistant or any other smart home system that supports it". The Starter Kit announcement: it can "talk to Home Assistant or any other smart home platform that supports it", and the kit "uses the same open standards as the rest of your smart home". The qualifier is present in both places. Home Assistant is named far more often than the qualifier is, and the drafting followed frequency rather than meaning. Counting mentions is not reading.
+
+There is a second reason beyond accuracy. A position that names Home Assistant makes one Open Home Foundation project's pitch depend on another's, which is not how the projects relate under `core/voices.md`. The drafted version had ESPHome introducing itself through a sibling.
+
+### What changed
+- `brand/strategy.md`: Positioning rewritten. The Privacy pillar translation no longer routes through Home Assistant; it states that the device runs on your own network and that nothing is routed through anyone's server on the way to whatever system you control it from. The Choice pillar translation now carries both halves of choice, hardware and system, where before it covered hardware only. That was a real gap: the pillar most about not being locked in said nothing about not being locked to one smart home system.
+- `PROJECT.md`: the summary paragraph.
+- `brand/messaging.md`: both the 50-word and 100-word boilerplate, and the first audience's key message. A note at the top now states the rule, so an agent writing new copy does not reintroduce the drift.
+- `truths/esphome/proof-points.md`: the "Home Assistant arrival" row is split. The general claim is now open standards working with any supporting system, verified against both sources. The Home Assistant specific phrasing survives as a narrower row, usable only where the audience is known to run Home Assistant.
+
+Worth noting what this cost. Home Assistant appears in ESPHome's published material constantly, and it is genuinely how most people encounter ESPHome. Drafting from public sources will keep producing this error for any project that sits downstream of a larger one. The fix is not to weight the sources differently; it is that positioning cannot be derived from frequency at all, and has to be ruled.

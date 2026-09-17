@@ -18,7 +18,7 @@ last_reviewed: 2026-09-16
 
 # ESPHome
 
-ESPHome turns cheap microcontrollers into smart home devices you design yourself. You describe the hardware attached to a board in a YAML configuration, or pick it from a list in the ESPHome Device Builder, and ESPHome builds the software that runs on the chip. Everything you define shows up in Home Assistant over your own network, with no cloud account in between. The first install goes over a USB cable; every update after that can go over the air.
+ESPHome turns cheap microcontrollers into smart home devices you design yourself. You describe the hardware attached to a board in a YAML configuration, or pick it from a list in the ESPHome Device Builder, and ESPHome builds the software that runs on the chip. Everything you define shows up on your own network, in Home Assistant or any other smart home system that supports it, with no cloud account in between. The first install goes over a USB cable; every update after that can go over the air.
 
 (Drafted 2026-09-16 from the home page, the Get Started guide and the README. Confirm in the maintainer interview whether this stays the canonical paragraph.)
 

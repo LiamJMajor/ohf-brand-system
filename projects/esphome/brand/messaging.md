@@ -9,13 +9,15 @@ draft: true
 
 # ESPHome: messaging
 
-Derives from strategy.md. Agents copy Boilerplate verbatim; long-form builds from Key messages. Every fact traces to `truths/esphome/proof-points.md`. Drafted 2026-09-16; nothing here is confirmed.
+Derives from strategy.md. Agents copy Boilerplate verbatim; long-form builds from Key messages. Every fact traces to `truths/esphome/proof-points.md`.
+
+**Home Assistant is a benefit, never the pitch** (ruling 2026-09-17). ESPHome's position is building smart home devices. Compatibility is stated as open standards working with the system the reader already has, naming Home Assistant as one of them rather than as the destination. Copy that makes Home Assistant the point has drifted off position.
 
 ## Key messages
 One per audience in audiences.md.
 
 ### People who want a device nobody sells
-Buy a board, snap a sensor onto it, and tell ESPHome what it is. It writes the code and installs it, and the device appears in Home Assistant on your own network a minute later. The ESPHome Starter Kit exists so the first one takes no soldering, no breadboard and no code at all.
+Buy a board, snap a sensor onto it, and tell ESPHome what it is. It writes the code and installs it, and the device turns up on your own network a minute later, in whichever smart home system you run. The ESPHome Starter Kit exists so the first one takes no soldering, no breadboard and no code at all.
 (Answers the objection: this is electronics and I am not an electronics person.)
 
 ### People already running ESPHome devices
@@ -43,10 +45,10 @@ No code required, and the YAML is right there. Never one without the other. Beca
 ESPHome turns ESP32, ESP8266, and RP2040 microcontrollers into fully-featured smart home devices.
 
 ### 50 words
-ESPHome turns ESP32, ESP8266, and RP2040 microcontrollers into fully-featured smart home devices. You describe the hardware in a YAML configuration file, or pick it in the ESPHome Device Builder, and ESPHome writes and installs the code. Every device works with Home Assistant over your local network. ESPHome is a project from the Open Home Foundation.
+ESPHome turns ESP32, ESP8266, and RP2040 microcontrollers into fully-featured smart home devices. You describe the hardware in a YAML configuration file, or pick it in the ESPHome Device Builder, and ESPHome writes and installs the code. Every device runs on your own network and works with Home Assistant or any other smart home system that supports it. ESPHome is a project from the Open Home Foundation.
 
 ### 100 words
-ESPHome turns ESP32, ESP8266, and RP2040 microcontrollers into fully-featured smart home devices. You describe the hardware attached to a board in a YAML configuration file, or pick it in the ESPHome Device Builder, and ESPHome writes the code, builds it and installs it: over USB the first time, wirelessly after that. Every device appears in Home Assistant over your local network, with no cloud account required. Hundreds of components cover sensors, switches, lights, displays and more, across the eight platforms listed in the components index. Founded by Otto Winter and built by thousands of contributors, ESPHome is a project from the Open Home Foundation.
+ESPHome turns ESP32, ESP8266, and RP2040 microcontrollers into fully-featured smart home devices. You describe the hardware attached to a board in a YAML configuration file, or pick it in the ESPHome Device Builder, and ESPHome writes the code, builds it and installs it: over USB the first time, wirelessly after that. Every device runs on your own network and talks to Home Assistant or any other smart home system that supports it, with no cloud account required. Hundreds of components cover sensors, switches, lights, displays and more, across the eight platforms listed in the components index. Founded by Otto Winter and built by thousands of contributors, ESPHome is a project from the Open Home Foundation.
 
 ## Taglines
 | Tagline | Use | Status |
