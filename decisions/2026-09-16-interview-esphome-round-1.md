@@ -134,3 +134,19 @@ ESPHome 2026.9.0 was published on 16 September 2026, during this onboarding. `tr
 That is the two-register ruling of 2026-09-16, implemented by the project itself, in the same week and without reference to this work. The Modes table and the "say what the reader gets" rule both now cite it. It is the strongest available example of ESPHome's accessible register and should be first in line for `harvest-examples`.
 
 Worth drawing the general lesson, because it will recur. A rule drafted from a single release describes that release. Two of the rules here survived contact with the next one and two did not, and nothing in the drafting flagged which were which. Where a rule rests on one observation, the file should say so.
+
+## Round 6, on 2026-09-17
+
+**A contradiction is a question, not a decision.** Ruled after this onboarding resolved one by assuming. The 2026.9.0 release post uses sentence case headings against a Title Case rule drawn from the documentation's `CONTRIBUTING.md` and the 2026.8.0 post, and `brand/style.md` was rewritten to follow the newer post. That was wrong twice over: it treated the most recent artefact as authoritative, and it changed a stated rule on the strength of one post.
+
+The ruling is that **the rule stands and the post deviates**. `brand/style.md` is restored to Title Case for documentation and release posts, with 2026.9.0 recorded as a known deviation and an instruction not to follow it. A change in published copy is not a change in the rule; it is a copy that needs correcting.
+
+`skills/onboard-project/SKILL.md` in `brand-system-builder` now forbids resolving a contradiction by assumption, and requires marking any rule that rests on a single observation so the next contradiction can be weighed rather than guessed at.
+
+**The "Short on time?" section is a direction, not a rule.** It demonstrates ESPHome lowering the technical language in its communications, to make the project easier to understand and adopt. The Modes table records it as that, and does not require it of future posts. This is the same one-post evidence base as the heading case, ruled differently and deliberately: the section moves toward the accessibility direction already ruled on 2026-09-16, where the heading case moved away from a stated rule.
+
+**2026.9.0 harvested as the first ESPHome example.** Filed at `examples/esphome/release-post/2026-09-release-202690.md`, annotated per the protocol, with the deviations called out in `What not to copy`: the sentence-case headings, the en dashes, and the summary section's status as a direction rather than a required heading.
+
+Harvesting a post that breaks a rule is deliberate. It carries the best available writing in ESPHome's accessible register, and an example that teaches register while naming its own defects is more useful than waiting for a clean one. The annotation has to do that work, or the example teaches the defect.
+
+Two examples still needed before `live`: the minimum for flagship is three.
