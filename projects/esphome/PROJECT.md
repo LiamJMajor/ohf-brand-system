@@ -3,7 +3,7 @@ name: ESPHome
 slug: esphome
 tier: flagship
 voice: project
-status: drafted
+status: validated
 owner: @liam
 maintainers: [@jesserockz]  # confirmed a maintainer 2026-09-16, not the only one; interview may be run with anyone holding the knowledge
 repo: https://github.com/esphome/esphome
@@ -12,8 +12,8 @@ pillars: [privacy, choice, sustainability]
 surfaces: [website, docs, social-profiles, github]
 related: [home-assistant]
 standards: []
-ready: []
-last_reviewed: 2026-09-16
+ready: [brand]
+last_reviewed: 2026-09-17
 ---
 
 # ESPHome

@@ -4,7 +4,7 @@ project: esphome
 owner: @liam
 last_reviewed: 2026-09-16
 review_every: 180d
-draft: true
+draft: false
 ---
 
 # ESPHome: messaging
