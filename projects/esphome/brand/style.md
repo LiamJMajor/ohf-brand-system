@@ -22,7 +22,8 @@ Two guides sit above this file and have not been reconciled with it: the OHF Edi
 - Em dashes: **do not use them.** Banned outright, every register, every surface, across every project and the foundation. Confirmed org-wide on 2026-09-16, which closes the question `decisions/2026-09-15-social-register-and-tells.md` left open. Recorded loudly because an agent reaches for one about every second paragraph. **Known gap in existing copy:** ESPHome's published 2026 posts contain 52 em dashes and 20 en dashes. New copy complies; correcting the archive is a separate decision nobody has funded.
 
 ## Capitalisation
-- Headings in documentation and release posts: Title Case (docs, and observed: "Release Overview", "Upgrade Checklist", "New Components", "Thank You, Contributors").
+- Headings in documentation: Title Case (docs `CONTRIBUTING.md`, and observed in component pages).
+- Headings in release posts: **sentence case since 2026.9.0.** 2026.8.0 wrote "Release Overview", "Upgrade Checklist", "Thank You, Contributors"; 2026.9.0 writes "Release overview", "Upgrade checklist", "Thank you, contributors". The change is consistent across every heading in the post, so it is a decision rather than a slip. Follow 2026.9.0.
 - Headings on the home page and in product announcements: sentence case (observed: "How ESPHome works", "Begin here", "What's in the box?", "Three things to try with the ESPHome Starter Kit"). The split is real and consistent. Do not normalise one to the other.
 - Product and feature names: see naming.md.
 - Component names in prose: lowercase, exactly as the configuration key is spelled, in backticks: `modbus_client`, `esp32_ble_tracker`, `deep_sleep`.

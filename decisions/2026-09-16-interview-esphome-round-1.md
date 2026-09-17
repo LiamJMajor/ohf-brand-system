@@ -114,3 +114,23 @@ This is the same pattern `truths/esphome/proof-points.md` already uses in its "N
 **strategy.md: voice rulings propagated, and the skill fixed.** Two of the three rulings made against `brand/voice.md` had not reached `brand/strategy.md`, where the same ideas sat as Personality attributes in different words. The Personality section now holds two attributes rather than three: the change-note precision rule is scoped to match the ruling, "No code required, and the code is right there" is deleted because it was reclassified as a messaging rule and lives in `brand/messaging.md`, and the contributors attribute stands.
 
 The cause is structural rather than an oversight in this onboarding. `references/project-spec.md` says `brand/strategy.md` is the source the other brand files derive from; stage 2 drafts them in parallel as siblings. A ruling against one therefore does not reach the others. `skills/onboard-project/SKILL.md` in `brand-system-builder` now carries a propagation checklist at stage 3, covering the four cases seen here, and a requirement to record what a ruling overrides rather than only what it decides. That change travels in its own pull request in that repository.
+
+## Round 5, and 2026.9.0
+
+**Naming inferences confirmed as rules.** The lowercase `esphome` boundary (command, package, repository and URL paths) and first-mention-in-full for named products both stand as rules. Each file records that the boundary was drawn from measured usage rather than stated by the project, so a later reader does not mistake the drafting for ESPHome's own decision.
+
+**Short attribution form: an organisation pattern.** "ESPHome, an Open Home Foundation project" is not ESPHome's wording and no ESPHome source uses it. It is the form confirmed for Home Assistant by the marketing team on 2026-09-14, applied across projects with the name swapped.
+
+This is the same shape as the question deferred in round 1: a rule confirmed for one project, living in that project's directory, applied to others. It has now come up twice in one onboarding. Deferring it once is reasonable; the third time a project needs a form that is really the organisation's, it belongs in `core/`.
+
+## 2026.9.0 landed, and corrected two drafted rules
+
+ESPHome 2026.9.0 was published on 16 September 2026, during this onboarding. `truths/esphome/current-release.md` is updated and 2026.8.0 moved to Superseded. Two rules drafted from 2026.8.0 turned out to be wrong the moment a second release existed to compare against.
+
+**Heading case in release posts changed.** 2026.8.0 wrote "Release Overview", "Upgrade Checklist", "Thank You, Contributors". 2026.9.0 writes "Release overview", "Upgrade checklist", "Thank you, contributors". The change is consistent across every heading in the post, so it is a decision rather than a slip. `brand/style.md` now splits the rule: Title Case in documentation, sentence case in release posts, following 2026.9.0.
+
+**The release post structure changed, in the direction of the accessibility ruling.** 2026.9.0 is the first to open with a plain-language section, "Short on time? Here's the quick version", ahead of the technical write-up. It names the three changes that affect a typical configuration in ordinary words, then says plainly that a typical setup needs nothing else, then hands off: "Keep reading below for the full release overview and technical detail."
+
+That is the two-register ruling of 2026-09-16, implemented by the project itself, in the same week and without reference to this work. The Modes table and the "say what the reader gets" rule both now cite it. It is the strongest available example of ESPHome's accessible register and should be first in line for `harvest-examples`.
+
+Worth drawing the general lesson, because it will recur. A rule drafted from a single release describes that release. Two of the rules here survived contact with the next one and two did not, and nothing in the drafting flagged which were which. Where a rule rests on one observation, the file should say so.
